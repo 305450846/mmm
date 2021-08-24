@@ -5,27 +5,21 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇯🇵 Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_2167, server: 120.232.215.239, port: 4504, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 48888:ind3ttsrh9r, obfs-param: ""}
-  - {name: 🇰🇷 Relay_馃嚚馃嚦CN-馃嚢馃嚪KR_2149, server: cmrelay-basic-2.nodesub.com, port: 7500, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 48888:ind3ttsrh9r, obfs-param: ""}
-  - {name: 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_2142, server: 120.232.215.240, port: 6500, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 48888:ind3ttsrh9r, obfs-param: ""}
-  - {name: 🇺🇸 馃嚭馃嚫US_235, server: 154.17.2.149, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 🇺🇸 馃嚭馃嚫US_255, server: 154.17.2.211, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: ZECSlaTZea5jFO736FA3Ry3DaXRA2qNx0pceYDzKCuYS8gl3B4p8InwyDCOSx9}
-  - {name: 🇺🇸 馃嚭馃嚫US_196, server: 154.17.1.251, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 🇺🇸 馃嚭馃嚫US_256, server: 154.17.5.133, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 🇺🇸 馃嚭馃嚫US_9341 |55.61Mb, server: 154.17.2.31, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 🇺🇸 馃嚭馃嚫US_13719 |54.55Mb, server: 154.17.2.162, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 🇺🇸 馃嚭馃嚫US_182, server: 154.17.5.184, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 🇺🇸 馃嚭馃嚫US_193, server: 154.17.1.245, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 🇺🇸 馃嚭馃嚫US_222, server: 154.17.2.95, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 🇺🇸 馃嚭馃嚫US_229, server: 154.17.2.121, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 🇺🇸 馃嚭馃嚫US_232, server: 154.17.2.135, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 🇺🇸 馃嚭馃嚫US_233, server: 154.17.2.142, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 🇺🇸 馃嚭馃嚫US_238, server: 154.17.2.153, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 🇺🇸 馃嚭馃嚫US_244, server: 154.17.2.160, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 🇺🇸 馃嚭馃嚫US_13718 |61.71Mb, server: 154.17.2.54, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: YazuZ2ZE9p5Rn3CANKlD6SqC0OTSyXBIReypacD4Fae8gx87lOD3SY33jFAwCx}
-  - {name: 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_2161, server: 120.232.215.240, port: 6501, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 48888:ind3ttsrh9r, obfs-param: ""}
-  - {name: 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_2228, server: 120.232.215.239, port: 6504, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 48888:ind3ttsrh9r, obfs-param: ""}
-  - {name: 🇺🇸 馃嚭馃嚫US_199, server: 154.17.2.109, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: l3Y9yKCBaT5SnpFFOe834yqIaXwSpRxz3l7D3Aua82ZgcSNZDCO6AexYDCE0Rj}
+  - {name: 🇺🇸 9US_233, server: 154.17.2.142, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 🇺🇸 8US_182, server: 154.17.5.184, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 🇺🇸 7US_200, server: 154.17.2.112, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: N0KSFR6alSxjgp7T8Aa9Ce8DnCaAOYqz5lFZxe3O2I3uycYZXEDp3S34RyCDwB}
+  - {name: 🇺🇸 6US_232, server: 154.17.2.135, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 🇺🇸 5US_196, server: 154.17.1.251, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 🇺🇸 4US_193, server: 154.17.1.245, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 🇺🇸 3US_256, server: 154.17.5.133, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 🇺🇸 2US_229, server: 154.17.2.121, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 🇺🇸 1US_255, server: 154.17.2.211, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: ZECSlaTZea5jFO736FA3Ry3DaXRA2qNx0pceYDzKCuYS8gl3B4p8InwyDCOSx9}
+  - {name: 🇺🇸 15US_10323, server: 212.103.49.149, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 🇺🇸 14US_199, server: 154.17.2.109, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: l3Y9yKCBaT5SnpFFOe834yqIaXwSpRxz3l7D3Aua82ZgcSNZDCO6AexYDCE0Rj}
+  - {name: 🇺🇸 13US_222, server: 154.17.2.95, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 🇺🇸 12US_13719, server: 154.17.2.162, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 🇺🇸 11US_238, server: 154.17.2.153, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 🇺🇸 10US_235, server: 154.17.2.149, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
 proxy-groups:
   - name: 🚀 全局设置
     type: select
@@ -43,53 +37,41 @@ proxy-groups:
   - name: 🚀 手动选择
     type: select
     proxies:
-      - 🇯🇵 Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_2167
-      - 🇰🇷 Relay_馃嚚馃嚦CN-馃嚢馃嚪KR_2149
-      - 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_2142
-      - 🇺🇸 馃嚭馃嚫US_235
-      - 🇺🇸 馃嚭馃嚫US_255
-      - 🇺🇸 馃嚭馃嚫US_196
-      - 🇺🇸 馃嚭馃嚫US_256
-      - 🇺🇸 馃嚭馃嚫US_9341 |55.61Mb
-      - 🇺🇸 馃嚭馃嚫US_13719 |54.55Mb
-      - 🇺🇸 馃嚭馃嚫US_182
-      - 🇺🇸 馃嚭馃嚫US_193
-      - 🇺🇸 馃嚭馃嚫US_222
-      - 🇺🇸 馃嚭馃嚫US_229
-      - 🇺🇸 馃嚭馃嚫US_232
-      - 🇺🇸 馃嚭馃嚫US_233
-      - 🇺🇸 馃嚭馃嚫US_238
-      - 🇺🇸 馃嚭馃嚫US_244
-      - 🇺🇸 馃嚭馃嚫US_13718 |61.71Mb
-      - 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_2161
-      - 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_2228
-      - 🇺🇸 馃嚭馃嚫US_199
+      - 🇺🇸 9US_233
+      - 🇺🇸 8US_182
+      - 🇺🇸 7US_200
+      - 🇺🇸 6US_232
+      - 🇺🇸 5US_196
+      - 🇺🇸 4US_193
+      - 🇺🇸 3US_256
+      - 🇺🇸 2US_229
+      - 🇺🇸 1US_255
+      - 🇺🇸 15US_10323
+      - 🇺🇸 14US_199
+      - 🇺🇸 13US_222
+      - 🇺🇸 12US_13719
+      - 🇺🇸 11US_238
+      - 🇺🇸 10US_235
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇯🇵 Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_2167
-      - 🇰🇷 Relay_馃嚚馃嚦CN-馃嚢馃嚪KR_2149
-      - 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_2142
-      - 🇺🇸 馃嚭馃嚫US_235
-      - 🇺🇸 馃嚭馃嚫US_255
-      - 🇺🇸 馃嚭馃嚫US_196
-      - 🇺🇸 馃嚭馃嚫US_256
-      - 🇺🇸 馃嚭馃嚫US_9341 |55.61Mb
-      - 🇺🇸 馃嚭馃嚫US_13719 |54.55Mb
-      - 🇺🇸 馃嚭馃嚫US_182
-      - 🇺🇸 馃嚭馃嚫US_193
-      - 🇺🇸 馃嚭馃嚫US_222
-      - 🇺🇸 馃嚭馃嚫US_229
-      - 🇺🇸 馃嚭馃嚫US_232
-      - 🇺🇸 馃嚭馃嚫US_233
-      - 🇺🇸 馃嚭馃嚫US_238
-      - 🇺🇸 馃嚭馃嚫US_244
-      - 🇺🇸 馃嚭馃嚫US_13718 |61.71Mb
-      - 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_2161
-      - 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_2228
-      - 🇺🇸 馃嚭馃嚫US_199
+      - 🇺🇸 9US_233
+      - 🇺🇸 8US_182
+      - 🇺🇸 7US_200
+      - 🇺🇸 6US_232
+      - 🇺🇸 5US_196
+      - 🇺🇸 4US_193
+      - 🇺🇸 3US_256
+      - 🇺🇸 2US_229
+      - 🇺🇸 1US_255
+      - 🇺🇸 15US_10323
+      - 🇺🇸 14US_199
+      - 🇺🇸 13US_222
+      - 🇺🇸 12US_13719
+      - 🇺🇸 11US_238
+      - 🇺🇸 10US_235
   - name: 🎯 国内网络
     type: select
     proxies:
@@ -271,32 +253,29 @@ proxy-groups:
   - name: 🇯🇵 日本节点
     type: select
     proxies:
-      - 🇯🇵 Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_2167
+      - DIRECT
   - name: 🇺🇲 美国节点
     type: select
     proxies:
-      - 🇺🇸 馃嚭馃嚫US_235
-      - 🇺🇸 馃嚭馃嚫US_255
-      - 🇺🇸 馃嚭馃嚫US_196
-      - 🇺🇸 馃嚭馃嚫US_256
-      - 🇺🇸 馃嚭馃嚫US_9341 |55.61Mb
-      - 🇺🇸 馃嚭馃嚫US_13719 |54.55Mb
-      - 🇺🇸 馃嚭馃嚫US_182
-      - 🇺🇸 馃嚭馃嚫US_193
-      - 🇺🇸 馃嚭馃嚫US_222
-      - 🇺🇸 馃嚭馃嚫US_229
-      - 🇺🇸 馃嚭馃嚫US_232
-      - 🇺🇸 馃嚭馃嚫US_233
-      - 🇺🇸 馃嚭馃嚫US_238
-      - 🇺🇸 馃嚭馃嚫US_244
-      - 🇺🇸 馃嚭馃嚫US_13718 |61.71Mb
-      - 🇺🇸 馃嚭馃嚫US_199
+      - 🇺🇸 9US_233
+      - 🇺🇸 8US_182
+      - 🇺🇸 7US_200
+      - 🇺🇸 6US_232
+      - 🇺🇸 5US_196
+      - 🇺🇸 4US_193
+      - 🇺🇸 3US_256
+      - 🇺🇸 2US_229
+      - 🇺🇸 1US_255
+      - 🇺🇸 15US_10323
+      - 🇺🇸 14US_199
+      - 🇺🇸 13US_222
+      - 🇺🇸 12US_13719
+      - 🇺🇸 11US_238
+      - 🇺🇸 10US_235
   - name: 🇸🇬 新加坡节点
     type: select
     proxies:
-      - 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_2142
-      - 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_2161
-      - 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_2228
+      - DIRECT
   - name: 🇨🇳 台湾节点
     type: select
     proxies:
@@ -304,7 +283,7 @@ proxy-groups:
   - name: 🇰🇷 韩国节点
     type: select
     proxies:
-      - 🇰🇷 Relay_馃嚚馃嚦CN-馃嚢馃嚪KR_2149
+      - DIRECT
   - name: 🎥 奈飞节点
     type: select
     proxies:
