@@ -5,21 +5,14 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 9US_233, server: 154.17.2.142, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 🇺🇸 8US_182, server: 154.17.5.184, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 🇺🇸 7US_200, server: 154.17.2.112, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: N0KSFR6alSxjgp7T8Aa9Ce8DnCaAOYqz5lFZxe3O2I3uycYZXEDp3S34RyCDwB}
-  - {name: 🇺🇸 6US_232, server: 154.17.2.135, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 🇺🇸 5US_196, server: 154.17.1.251, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 🇺🇸 4US_193, server: 154.17.1.245, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 🇺🇸 3US_256, server: 154.17.5.133, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 🇺🇸 2US_229, server: 154.17.2.121, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 🇺🇸 1US_255, server: 154.17.2.211, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: ZECSlaTZea5jFO736FA3Ry3DaXRA2qNx0pceYDzKCuYS8gl3B4p8InwyDCOSx9}
-  - {name: 🇺🇸 15US_10323, server: 212.103.49.149, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 🇺🇸 14US_199, server: 154.17.2.109, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: l3Y9yKCBaT5SnpFFOe834yqIaXwSpRxz3l7D3Aua82ZgcSNZDCO6AexYDCE0Rj}
-  - {name: 🇺🇸 13US_222, server: 154.17.2.95, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 🇺🇸 12US_13719, server: 154.17.2.162, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 🇺🇸 11US_238, server: 154.17.2.153, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 🇺🇸 10US_235, server: 154.17.2.149, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: Relay_ | 9.76Mb, server: icajm.moox.icu, port: 40006, type: vmess, uuid: 3ed7ef7a-5f66-47c8-9da1-a11852ccb7a4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: icajm.moox.icu}}
+  - {name: Relay_ | 8.94Mb, server: kj3xfvid6unglwytghfq7ymawxh9pr5zce1j.quickairport.top, port: 21846, type: vmess, uuid: 2373a234-4b09-47d0-999d-7c6b0f25156a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: kj3xfvid6unglwytghfq7ymawxh9pr5zce1j.quickairport.top}}
+  - {name: 🇭🇰 Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_426 | 5.45Mb, server: rxzgzq.moox.icu, port: 34001, type: vmess, uuid: 3ed7ef7a-5f66-47c8-9da1-a11852ccb7a4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: rxzgzq.moox.icu}}
+  - {name: 🇭🇰 Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_425 | 6.83Mb, server: icajm.moox.icu, port: 40003, type: vmess, uuid: 3ed7ef7a-5f66-47c8-9da1-a11852ccb7a4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: icajm.moox.icu}}
+  - {name: 🇭🇰 Relay_馃嚟馃嚢HK-馃嚟馃嚢HK_1032, server: azure.hk2.mwjg.xyz, port: 2052, type: vmess, uuid: 6fc1b7f3-b0d8-4c20-b3e1-fa1143e8dde8, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: azure.hk2.mwjg.xyz}}
+  - {name: 🇭🇰 Relay_馃嚟馃嚢HK-馃嚟馃嚢HK_1032 2, server: azure.hk2.mwjg.xyz, port: 2052, type: vmess, uuid: 6fc1b7f3-b0d8-4c20-b3e1-fa1143e8dde8, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: azure.hk2.mwjg.xyz}}
+  - {name: 🇸🇬 馃嚫馃嚞SG_8958 |12.24Mb, server: 13.67.43.232, port: 80, type: vmess, uuid: 954d39fa-b3fc-465e-aa36-fdc9787dc4e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 13.67.43.232}}
+  - {name: Relay_ | 9.27Mb, server: 117.28.243.187, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
 proxy-groups:
   - name: 🚀 全局设置
     type: select
@@ -37,41 +30,27 @@ proxy-groups:
   - name: 🚀 手动选择
     type: select
     proxies:
-      - 🇺🇸 9US_233
-      - 🇺🇸 8US_182
-      - 🇺🇸 7US_200
-      - 🇺🇸 6US_232
-      - 🇺🇸 5US_196
-      - 🇺🇸 4US_193
-      - 🇺🇸 3US_256
-      - 🇺🇸 2US_229
-      - 🇺🇸 1US_255
-      - 🇺🇸 15US_10323
-      - 🇺🇸 14US_199
-      - 🇺🇸 13US_222
-      - 🇺🇸 12US_13719
-      - 🇺🇸 11US_238
-      - 🇺🇸 10US_235
+      - Relay_ | 9.76Mb
+      - Relay_ | 8.94Mb
+      - 🇭🇰 Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_426 | 5.45Mb
+      - 🇭🇰 Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_425 | 6.83Mb
+      - 🇭🇰 Relay_馃嚟馃嚢HK-馃嚟馃嚢HK_1032
+      - 🇭🇰 Relay_馃嚟馃嚢HK-馃嚟馃嚢HK_1032 2
+      - 🇸🇬 馃嚫馃嚞SG_8958 |12.24Mb
+      - Relay_ | 9.27Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 9US_233
-      - 🇺🇸 8US_182
-      - 🇺🇸 7US_200
-      - 🇺🇸 6US_232
-      - 🇺🇸 5US_196
-      - 🇺🇸 4US_193
-      - 🇺🇸 3US_256
-      - 🇺🇸 2US_229
-      - 🇺🇸 1US_255
-      - 🇺🇸 15US_10323
-      - 🇺🇸 14US_199
-      - 🇺🇸 13US_222
-      - 🇺🇸 12US_13719
-      - 🇺🇸 11US_238
-      - 🇺🇸 10US_235
+      - Relay_ | 9.76Mb
+      - Relay_ | 8.94Mb
+      - 🇭🇰 Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_426 | 5.45Mb
+      - 🇭🇰 Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_425 | 6.83Mb
+      - 🇭🇰 Relay_馃嚟馃嚢HK-馃嚟馃嚢HK_1032
+      - 🇭🇰 Relay_馃嚟馃嚢HK-馃嚟馃嚢HK_1032 2
+      - 🇸🇬 馃嚫馃嚞SG_8958 |12.24Mb
+      - Relay_ | 9.27Mb
   - name: 🎯 国内网络
     type: select
     proxies:
@@ -249,7 +228,10 @@ proxy-groups:
   - name: 🇭🇰 香港节点
     type: select
     proxies:
-      - DIRECT
+      - 🇭🇰 Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_426 | 5.45Mb
+      - 🇭🇰 Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_425 | 6.83Mb
+      - 🇭🇰 Relay_馃嚟馃嚢HK-馃嚟馃嚢HK_1032
+      - 🇭🇰 Relay_馃嚟馃嚢HK-馃嚟馃嚢HK_1032 2
   - name: 🇯🇵 日本节点
     type: select
     proxies:
@@ -257,25 +239,11 @@ proxy-groups:
   - name: 🇺🇲 美国节点
     type: select
     proxies:
-      - 🇺🇸 9US_233
-      - 🇺🇸 8US_182
-      - 🇺🇸 7US_200
-      - 🇺🇸 6US_232
-      - 🇺🇸 5US_196
-      - 🇺🇸 4US_193
-      - 🇺🇸 3US_256
-      - 🇺🇸 2US_229
-      - 🇺🇸 1US_255
-      - 🇺🇸 15US_10323
-      - 🇺🇸 14US_199
-      - 🇺🇸 13US_222
-      - 🇺🇸 12US_13719
-      - 🇺🇸 11US_238
-      - 🇺🇸 10US_235
+      - DIRECT
   - name: 🇸🇬 新加坡节点
     type: select
     proxies:
-      - DIRECT
+      - 🇸🇬 馃嚫馃嚞SG_8958 |12.24Mb
   - name: 🇨🇳 台湾节点
     type: select
     proxies:
