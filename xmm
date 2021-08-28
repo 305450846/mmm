@@ -5,14 +5,16 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Relay_ | 9.76Mb, server: icajm.moox.icu, port: 40006, type: vmess, uuid: 3ed7ef7a-5f66-47c8-9da1-a11852ccb7a4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: icajm.moox.icu}}
-  - {name: Relay_ | 8.94Mb, server: kj3xfvid6unglwytghfq7ymawxh9pr5zce1j.quickairport.top, port: 21846, type: vmess, uuid: 2373a234-4b09-47d0-999d-7c6b0f25156a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: kj3xfvid6unglwytghfq7ymawxh9pr5zce1j.quickairport.top}}
-  - {name: 🇭🇰 Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_426 | 5.45Mb, server: rxzgzq.moox.icu, port: 34001, type: vmess, uuid: 3ed7ef7a-5f66-47c8-9da1-a11852ccb7a4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: rxzgzq.moox.icu}}
-  - {name: 🇭🇰 Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_425 | 6.83Mb, server: icajm.moox.icu, port: 40003, type: vmess, uuid: 3ed7ef7a-5f66-47c8-9da1-a11852ccb7a4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: icajm.moox.icu}}
-  - {name: 🇭🇰 Relay_馃嚟馃嚢HK-馃嚟馃嚢HK_1032, server: azure.hk2.mwjg.xyz, port: 2052, type: vmess, uuid: 6fc1b7f3-b0d8-4c20-b3e1-fa1143e8dde8, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: azure.hk2.mwjg.xyz}}
-  - {name: 🇭🇰 Relay_馃嚟馃嚢HK-馃嚟馃嚢HK_1032 2, server: azure.hk2.mwjg.xyz, port: 2052, type: vmess, uuid: 6fc1b7f3-b0d8-4c20-b3e1-fa1143e8dde8, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: azure.hk2.mwjg.xyz}}
-  - {name: 🇸🇬 馃嚫馃嚞SG_8958 |12.24Mb, server: 13.67.43.232, port: 80, type: vmess, uuid: 954d39fa-b3fc-465e-aa36-fdc9787dc4e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 13.67.43.232}}
-  - {name: Relay_ | 9.27Mb, server: 117.28.243.187, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
+  - {name: 🇭🇰 1HK, server: rxzgzq.moox.icu, port: 34001, type: vmess, uuid: 3ed7ef7a-5f66-47c8-9da1-a11852ccb7a4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: rxzgzq.moox.icu}}
+  - {name: 🇺🇸 2US, server: 84.17.41.77, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 🇺🇸 3US, server: 84.17.41.77, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 🇺🇸 4US, server: 84.17.41.77, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 🇺🇸 5US, server: 104.200.131.167, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇺🇸 6US, server: 104.200.131.167, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇺🇸 7US, server: 104.200.131.167, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
+  - {name: 🇺🇸 8US, server: 104.200.131.167, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
+  - {name: 🇺🇸 9US, server: 198.8.92.74, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 🇺🇸 10US, server: 212.102.46.56, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
 proxy-groups:
   - name: 🚀 全局设置
     type: select
@@ -30,27 +32,31 @@ proxy-groups:
   - name: 🚀 手动选择
     type: select
     proxies:
-      - Relay_ | 9.76Mb
-      - Relay_ | 8.94Mb
-      - 🇭🇰 Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_426 | 5.45Mb
-      - 🇭🇰 Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_425 | 6.83Mb
-      - 🇭🇰 Relay_馃嚟馃嚢HK-馃嚟馃嚢HK_1032
-      - 🇭🇰 Relay_馃嚟馃嚢HK-馃嚟馃嚢HK_1032 2
-      - 🇸🇬 馃嚫馃嚞SG_8958 |12.24Mb
-      - Relay_ | 9.27Mb
+      - 🇭🇰 1HK
+      - 🇺🇸 2US
+      - 🇺🇸 3US
+      - 🇺🇸 4US
+      - 🇺🇸 5US
+      - 🇺🇸 6US
+      - 🇺🇸 7US
+      - 🇺🇸 8US
+      - 🇺🇸 9US
+      - 🇺🇸 10US
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Relay_ | 9.76Mb
-      - Relay_ | 8.94Mb
-      - 🇭🇰 Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_426 | 5.45Mb
-      - 🇭🇰 Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_425 | 6.83Mb
-      - 🇭🇰 Relay_馃嚟馃嚢HK-馃嚟馃嚢HK_1032
-      - 🇭🇰 Relay_馃嚟馃嚢HK-馃嚟馃嚢HK_1032 2
-      - 🇸🇬 馃嚫馃嚞SG_8958 |12.24Mb
-      - Relay_ | 9.27Mb
+      - 🇭🇰 1HK
+      - 🇺🇸 2US
+      - 🇺🇸 3US
+      - 🇺🇸 4US
+      - 🇺🇸 5US
+      - 🇺🇸 6US
+      - 🇺🇸 7US
+      - 🇺🇸 8US
+      - 🇺🇸 9US
+      - 🇺🇸 10US
   - name: 🎯 国内网络
     type: select
     proxies:
@@ -228,10 +234,7 @@ proxy-groups:
   - name: 🇭🇰 香港节点
     type: select
     proxies:
-      - 🇭🇰 Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_426 | 5.45Mb
-      - 🇭🇰 Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_425 | 6.83Mb
-      - 🇭🇰 Relay_馃嚟馃嚢HK-馃嚟馃嚢HK_1032
-      - 🇭🇰 Relay_馃嚟馃嚢HK-馃嚟馃嚢HK_1032 2
+      - 🇭🇰 1HK
   - name: 🇯🇵 日本节点
     type: select
     proxies:
@@ -239,11 +242,19 @@ proxy-groups:
   - name: 🇺🇲 美国节点
     type: select
     proxies:
-      - DIRECT
+      - 🇺🇸 2US
+      - 🇺🇸 3US
+      - 🇺🇸 4US
+      - 🇺🇸 5US
+      - 🇺🇸 6US
+      - 🇺🇸 7US
+      - 🇺🇸 8US
+      - 🇺🇸 9US
+      - 🇺🇸 10US
   - name: 🇸🇬 新加坡节点
     type: select
     proxies:
-      - 🇸🇬 馃嚫馃嚞SG_8958 |12.24Mb
+      - DIRECT
   - name: 🇨🇳 台湾节点
     type: select
     proxies:
