@@ -5,16 +5,21 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 1HK, server: rxzgzq.moox.icu, port: 34001, type: vmess, uuid: 3ed7ef7a-5f66-47c8-9da1-a11852ccb7a4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: rxzgzq.moox.icu}}
-  - {name: 🇺🇸 2US, server: 84.17.41.77, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: 🇺🇸 3US, server: 84.17.41.77, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 🇺🇸 4US, server: 84.17.41.77, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: 🇺🇸 5US, server: 104.200.131.167, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇺🇸 6US, server: 104.200.131.167, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇺🇸 7US, server: 104.200.131.167, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
-  - {name: 🇺🇸 8US, server: 104.200.131.167, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
-  - {name: 🇺🇸 9US, server: 198.8.92.74, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: 🇺🇸 10US, server: 212.102.46.56, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 🇺🇸 馃嚭馃嚫US_9571 |61.11Mb, server: 84.17.41.77, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 🇯🇵 Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_2126, server: 49bda1d.gd.gladns.com, port: 3202, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /s/49bda1d.fm.apple.com:58996, ws-headers: {Host: api.skype.com}}
+  - {name: 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_2121, server: 49bda1d.gb.gladns.com, port: 3205, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /s/49bda1d.fm.apple.com:58996, ws-headers: {Host: api.skype.com}}
+  - {name: 🇭🇰 Relay_馃嚟馃嚢HK-馃嚟馃嚢HK_4583, server: vtwonet-hk-a.qjnodeip.xyz, port: 23333, type: vmess, uuid: 04B2933E-8C62-7D68-E2E1-A94169041A89, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_2111, server: 49bda1d.ga.gladns.com, port: 3205, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /s/49bda1d.fm.apple.com:58996, ws-headers: {Host: api.skype.com}}
+  - {name: 🇯🇵 Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_2113, server: 49bda1d.ga.gladns.com, port: 3202, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /s/49bda1d.fm.apple.com:58996, ws-headers: {Host: api.skype.com}}
+  - {name: 🇯🇵 Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_2132, server: 49bda1d.gb.gladns.com, port: 3202, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /s/49bda1d.fm.apple.com:58996, ws-headers: {Host: api.skype.com}}
+  - {name: 🇭🇰 Relay_馃嚟馃嚢HK-馃嚟馃嚢HK_4586, server: vtwonet-hk-a.qjnodeip.xyz, port: 23333, type: vmess, uuid: 0A1C1FE8-2202-4C66-561C-129FF4906678, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 Relay_馃嚟馃嚢HK-馃嚟馃嚢HK_4589, server: vtwonet-hk-a.qjnodeip.xyz, port: 23333, type: vmess, uuid: EBA61A72-9504-CABE-AF69-2D770AEE8E5B, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 Relay_馃嚬馃嚰TW-馃嚬馃嚰TW_6249, server: vtwonet-tw-b.qjnodeip.xyz, port: 8300, type: vmess, uuid: BBC7AD0A-2AB1-63F8-A7EF-A327F4516D8A, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_2093, server: 49bda1d.gb.gladns.com, port: 3203, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /s/49bda1d.fm.apple.com:58996, ws-headers: {Host: api.skype.com}}
+  - {name: 🇭🇰 Relay_馃嚟馃嚢HK-馃嚟馃嚢HK_4585, server: vtwonet-hk-a.qjnodeip.xyz, port: 23333, type: vmess, uuid: 41160A16-6F15-A7C9-32C9-F7C5FE5CEC2F, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 Relay_馃嚬馃嚰TW-馃嚬馃嚰TW_6244, server: 49bda1d.rb.gladns.com, port: 80, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /s/49bda1d.fm.apple.com:58996, ws-headers: {Host: rx.moss.network}}
+  - {name: 🇭🇰 Relay_馃嚟馃嚢HK-馃嚟馃嚢HK_4578, server: vtwonet-hk-a.qjnodeip.xyz, port: 23333, type: vmess, uuid: 263E2C04-F65E-88E8-331A-8A91FADF2B3F, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 Relay_馃嚟馃嚢HK-馃嚟馃嚢HK_4591, server: vtwonet-hk-a.qjnodeip.xyz, port: 23333, type: vmess, uuid: 6A78B282-7BCA-6EC4-D042-A43DDF51C33F, alterId: 0, cipher: auto, tls: false}
 proxy-groups:
   - name: 🚀 全局设置
     type: select
@@ -32,31 +37,41 @@ proxy-groups:
   - name: 🚀 手动选择
     type: select
     proxies:
-      - 🇭🇰 1HK
-      - 🇺🇸 2US
-      - 🇺🇸 3US
-      - 🇺🇸 4US
-      - 🇺🇸 5US
-      - 🇺🇸 6US
-      - 🇺🇸 7US
-      - 🇺🇸 8US
-      - 🇺🇸 9US
-      - 🇺🇸 10US
+      - 🇺🇸 馃嚭馃嚫US_9571 |61.11Mb
+      - 🇯🇵 Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_2126
+      - 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_2121
+      - 🇭🇰 Relay_馃嚟馃嚢HK-馃嚟馃嚢HK_4583
+      - 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_2111
+      - 🇯🇵 Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_2113
+      - 🇯🇵 Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_2132
+      - 🇭🇰 Relay_馃嚟馃嚢HK-馃嚟馃嚢HK_4586
+      - 🇭🇰 Relay_馃嚟馃嚢HK-馃嚟馃嚢HK_4589
+      - 🇨🇳 Relay_馃嚬馃嚰TW-馃嚬馃嚰TW_6249
+      - 🇨🇳 Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_2093
+      - 🇭🇰 Relay_馃嚟馃嚢HK-馃嚟馃嚢HK_4585
+      - 🇨🇳 Relay_馃嚬馃嚰TW-馃嚬馃嚰TW_6244
+      - 🇭🇰 Relay_馃嚟馃嚢HK-馃嚟馃嚢HK_4578
+      - 🇭🇰 Relay_馃嚟馃嚢HK-馃嚟馃嚢HK_4591
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 1HK
-      - 🇺🇸 2US
-      - 🇺🇸 3US
-      - 🇺🇸 4US
-      - 🇺🇸 5US
-      - 🇺🇸 6US
-      - 🇺🇸 7US
-      - 🇺🇸 8US
-      - 🇺🇸 9US
-      - 🇺🇸 10US
+      - 🇺🇸 馃嚭馃嚫US_9571 |61.11Mb
+      - 🇯🇵 Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_2126
+      - 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_2121
+      - 🇭🇰 Relay_馃嚟馃嚢HK-馃嚟馃嚢HK_4583
+      - 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_2111
+      - 🇯🇵 Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_2113
+      - 🇯🇵 Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_2132
+      - 🇭🇰 Relay_馃嚟馃嚢HK-馃嚟馃嚢HK_4586
+      - 🇭🇰 Relay_馃嚟馃嚢HK-馃嚟馃嚢HK_4589
+      - 🇨🇳 Relay_馃嚬馃嚰TW-馃嚬馃嚰TW_6249
+      - 🇨🇳 Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_2093
+      - 🇭🇰 Relay_馃嚟馃嚢HK-馃嚟馃嚢HK_4585
+      - 🇨🇳 Relay_馃嚬馃嚰TW-馃嚬馃嚰TW_6244
+      - 🇭🇰 Relay_馃嚟馃嚢HK-馃嚟馃嚢HK_4578
+      - 🇭🇰 Relay_馃嚟馃嚢HK-馃嚟馃嚢HK_4591
   - name: 🎯 国内网络
     type: select
     proxies:
@@ -234,31 +249,33 @@ proxy-groups:
   - name: 🇭🇰 香港节点
     type: select
     proxies:
-      - 🇭🇰 1HK
+      - 🇭🇰 Relay_馃嚟馃嚢HK-馃嚟馃嚢HK_4583
+      - 🇭🇰 Relay_馃嚟馃嚢HK-馃嚟馃嚢HK_4586
+      - 🇭🇰 Relay_馃嚟馃嚢HK-馃嚟馃嚢HK_4589
+      - 🇭🇰 Relay_馃嚟馃嚢HK-馃嚟馃嚢HK_4585
+      - 🇭🇰 Relay_馃嚟馃嚢HK-馃嚟馃嚢HK_4578
+      - 🇭🇰 Relay_馃嚟馃嚢HK-馃嚟馃嚢HK_4591
   - name: 🇯🇵 日本节点
     type: select
     proxies:
-      - DIRECT
+      - 🇯🇵 Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_2126
+      - 🇯🇵 Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_2113
+      - 🇯🇵 Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_2132
   - name: 🇺🇲 美国节点
     type: select
     proxies:
-      - 🇺🇸 2US
-      - 🇺🇸 3US
-      - 🇺🇸 4US
-      - 🇺🇸 5US
-      - 🇺🇸 6US
-      - 🇺🇸 7US
-      - 🇺🇸 8US
-      - 🇺🇸 9US
-      - 🇺🇸 10US
+      - 🇺🇸 馃嚭馃嚫US_9571 |61.11Mb
   - name: 🇸🇬 新加坡节点
     type: select
     proxies:
-      - DIRECT
+      - 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_2121
+      - 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_2111
   - name: 🇨🇳 台湾节点
     type: select
     proxies:
-      - DIRECT
+      - 🇨🇳 Relay_馃嚬馃嚰TW-馃嚬馃嚰TW_6249
+      - 🇨🇳 Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_2093
+      - 🇨🇳 Relay_馃嚬馃嚰TW-馃嚬馃嚰TW_6244
   - name: 🇰🇷 韩国节点
     type: select
     proxies:
