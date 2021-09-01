@@ -5,18 +5,16 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 1, server: 212.102.44.86, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: 2, server: 104.200.131.167, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
-  - {name: 3, server: 185.242.5.147, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: 4, server: 154.16.168.186, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 5, server: 212.102.46.56, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: 6, server: 154.16.168.186, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 7, server: 208.78.41.202, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 8, server: 154.16.168.186, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
-  - {name: 9, server: 154.16.168.186, port: 35371, type: ss, cipher: aes-256-gcm, password: pjeDhAJGuML8xKUxcjRqq6a9}
-  - {name: 10, server: 104.200.131.167, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
-  - {name: 11, server: 154.16.168.186, port: 46726, type: ss, cipher: aes-256-gcm, password: 2fqKbFPGHpcmMTJzGsUbsfYf}
-  - {name: 12, server: 192.111.134.195, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: 1, server: 185.128.27.35, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇨🇳 Relay_馃嚬馃嚰TW-馃嚬馃嚰TW_7397, server: vtwonet-tw-b.qjnodeip.xyz, port: 8300, type: vmess, uuid: BF6AAA7F-AF54-8044-EA40-428D249CD536, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 Relay_馃嚭馃嚫US-馃嚭馃嚫US_9032, server: 138.197.236.28, port: 11394, type: ssr, cipher: aes-256-cfb, password: a02660, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: ""}
+  - {name: 🇰🇷 Relay_馃嚭馃嚫US-馃嚢馃嚪KR_7913, server: 103.117.103.24, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 🇨🇳 Relay_馃嚬馃嚰TW-馃嚬馃嚰TW_7393, server: vtwonet-tw-a.qjnodeip.xyz, port: 10086, type: vmess, uuid: BF6AAA7F-AF54-8044-EA40-428D249CD536, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 Relay_馃嚭馃嚫US-馃嚭馃嚫US_9060, server: us26.xqkj.cloud, port: 1126, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us26.xqkj.cloud}}
+  - {name: 🇺🇸 Relay_馃嚭馃嚫US-馃嚭馃嚫US_9045, server: us30.xqkj.cloud, port: 1121, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us30.xqkj.cloud}}
+  - {name: 🇺🇸 馃嚭馃嚫US_9059, server: 104.168.88.206, port: 443, type: vmess, uuid: d6a1be79-3a64-4ba2-855b-5a1d81c897f1, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 Relay_馃嚭馃嚫US-馃嚭馃嚫US_9070, server: us1.comefromchinatown.com, port: 80, type: vmess, uuid: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: client.wns.windows.com}}
+  - {name: 🇺🇸 Relay_馃嚭馃嚫US-馃嚭馃嚫US_9044, server: us22.xqkj.cloud, port: 1122, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us22.xqkj.cloud}}
 proxy-groups:
   - name: 🚀 全局设置
     type: select
@@ -35,34 +33,30 @@ proxy-groups:
     type: select
     proxies:
       - 1
-      - 2
-      - 3
-      - 4
-      - 5
-      - 6
-      - 7
-      - 8
-      - 9
-      - 10
-      - 11
-      - 12
+      - 🇨🇳 Relay_馃嚬馃嚰TW-馃嚬馃嚰TW_7397
+      - 🇺🇸 Relay_馃嚭馃嚫US-馃嚭馃嚫US_9032
+      - 🇰🇷 Relay_馃嚭馃嚫US-馃嚢馃嚪KR_7913
+      - 🇨🇳 Relay_馃嚬馃嚰TW-馃嚬馃嚰TW_7393
+      - 🇺🇸 Relay_馃嚭馃嚫US-馃嚭馃嚫US_9060
+      - 🇺🇸 Relay_馃嚭馃嚫US-馃嚭馃嚫US_9045
+      - 🇺🇸 馃嚭馃嚫US_9059
+      - 🇺🇸 Relay_馃嚭馃嚫US-馃嚭馃嚫US_9070
+      - 🇺🇸 Relay_馃嚭馃嚫US-馃嚭馃嚫US_9044
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - 1
-      - 2
-      - 3
-      - 4
-      - 5
-      - 6
-      - 7
-      - 8
-      - 9
-      - 10
-      - 11
-      - 12
+      - 🇨🇳 Relay_馃嚬馃嚰TW-馃嚬馃嚰TW_7397
+      - 🇺🇸 Relay_馃嚭馃嚫US-馃嚭馃嚫US_9032
+      - 🇰🇷 Relay_馃嚭馃嚫US-馃嚢馃嚪KR_7913
+      - 🇨🇳 Relay_馃嚬馃嚰TW-馃嚬馃嚰TW_7393
+      - 🇺🇸 Relay_馃嚭馃嚫US-馃嚭馃嚫US_9060
+      - 🇺🇸 Relay_馃嚭馃嚫US-馃嚭馃嚫US_9045
+      - 🇺🇸 馃嚭馃嚫US_9059
+      - 🇺🇸 Relay_馃嚭馃嚫US-馃嚭馃嚫US_9070
+      - 🇺🇸 Relay_馃嚭馃嚫US-馃嚭馃嚫US_9044
   - name: 🎯 国内网络
     type: select
     proxies:
@@ -248,7 +242,13 @@ proxy-groups:
   - name: 🇺🇲 美国节点
     type: select
     proxies:
-      - DIRECT
+      - 🇺🇸 Relay_馃嚭馃嚫US-馃嚭馃嚫US_9032
+      - 🇰🇷 Relay_馃嚭馃嚫US-馃嚢馃嚪KR_7913
+      - 🇺🇸 Relay_馃嚭馃嚫US-馃嚭馃嚫US_9060
+      - 🇺🇸 Relay_馃嚭馃嚫US-馃嚭馃嚫US_9045
+      - 🇺🇸 馃嚭馃嚫US_9059
+      - 🇺🇸 Relay_馃嚭馃嚫US-馃嚭馃嚫US_9070
+      - 🇺🇸 Relay_馃嚭馃嚫US-馃嚭馃嚫US_9044
   - name: 🇸🇬 新加坡节点
     type: select
     proxies:
@@ -256,11 +256,12 @@ proxy-groups:
   - name: 🇨🇳 台湾节点
     type: select
     proxies:
-      - DIRECT
+      - 🇨🇳 Relay_馃嚬馃嚰TW-馃嚬馃嚰TW_7397
+      - 🇨🇳 Relay_馃嚬馃嚰TW-馃嚬馃嚰TW_7393
   - name: 🇰🇷 韩国节点
     type: select
     proxies:
-      - DIRECT
+      - 🇰🇷 Relay_馃嚭馃嚫US-馃嚢馃嚪KR_7913
   - name: 🎥 奈飞节点
     type: select
     proxies:
