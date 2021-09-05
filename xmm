@@ -5,16 +5,16 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 1, server: 185.128.27.35, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇨🇳 Relay_馃嚬馃嚰TW-馃嚬馃嚰TW_7397, server: vtwonet-tw-b.qjnodeip.xyz, port: 8300, type: vmess, uuid: BF6AAA7F-AF54-8044-EA40-428D249CD536, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 Relay_馃嚭馃嚫US-馃嚭馃嚫US_9032, server: 138.197.236.28, port: 11394, type: ssr, cipher: aes-256-cfb, password: a02660, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: ""}
-  - {name: 🇰🇷 Relay_馃嚭馃嚫US-馃嚢馃嚪KR_7913, server: 103.117.103.24, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 🇨🇳 Relay_馃嚬馃嚰TW-馃嚬馃嚰TW_7393, server: vtwonet-tw-a.qjnodeip.xyz, port: 10086, type: vmess, uuid: BF6AAA7F-AF54-8044-EA40-428D249CD536, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 Relay_馃嚭馃嚫US-馃嚭馃嚫US_9060, server: us26.xqkj.cloud, port: 1126, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us26.xqkj.cloud}}
-  - {name: 🇺🇸 Relay_馃嚭馃嚫US-馃嚭馃嚫US_9045, server: us30.xqkj.cloud, port: 1121, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us30.xqkj.cloud}}
-  - {name: 🇺🇸 馃嚭馃嚫US_9059, server: 104.168.88.206, port: 443, type: vmess, uuid: d6a1be79-3a64-4ba2-855b-5a1d81c897f1, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 Relay_馃嚭馃嚫US-馃嚭馃嚫US_9070, server: us1.comefromchinatown.com, port: 80, type: vmess, uuid: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: client.wns.windows.com}}
-  - {name: 🇺🇸 Relay_馃嚭馃嚫US-馃嚭馃嚫US_9044, server: us22.xqkj.cloud, port: 1122, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us22.xqkj.cloud}}
+  - {name: 1, server: 13.94.7.205, port: 80, type: vmess, uuid: db3954ee-c19e-46a7-8a13-8e7befcfcd80, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 13.94.7.205}}
+  - {name: 2, server: 52.229.151.72, port: 80, type: vmess, uuid: 333996f7-0237-48c6-98bd-bf5a0e859147, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 52.229.151.72}}
+  - {name: 3, server: 45.248.76.171, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 4, server: 52.229.151.72, port: 80, type: vmess, uuid: db3954ee-c19e-46a7-8a13-8e7befcfcd80, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 52.229.151.72}}
+  - {name: 5, server: az.zf01.ssru8.club, port: 58804, type: vmess, uuid: db3954ee-c19e-46a7-8a13-8e7befcfcd80, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: az.zf01.ssru8.club}}
+  - {name: 6, server: 193.110.203.86, port: 18336, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 7, server: 66.115.147.77, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 8, server: 208.78.41.195, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
+  - {name: 9, server: 208.78.41.195, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: 10, server: 199.58.187.67, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
 proxy-groups:
   - name: 🚀 全局设置
     type: select
@@ -33,30 +33,30 @@ proxy-groups:
     type: select
     proxies:
       - 1
-      - 🇨🇳 Relay_馃嚬馃嚰TW-馃嚬馃嚰TW_7397
-      - 🇺🇸 Relay_馃嚭馃嚫US-馃嚭馃嚫US_9032
-      - 🇰🇷 Relay_馃嚭馃嚫US-馃嚢馃嚪KR_7913
-      - 🇨🇳 Relay_馃嚬馃嚰TW-馃嚬馃嚰TW_7393
-      - 🇺🇸 Relay_馃嚭馃嚫US-馃嚭馃嚫US_9060
-      - 🇺🇸 Relay_馃嚭馃嚫US-馃嚭馃嚫US_9045
-      - 🇺🇸 馃嚭馃嚫US_9059
-      - 🇺🇸 Relay_馃嚭馃嚫US-馃嚭馃嚫US_9070
-      - 🇺🇸 Relay_馃嚭馃嚫US-馃嚭馃嚫US_9044
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 10
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - 1
-      - 🇨🇳 Relay_馃嚬馃嚰TW-馃嚬馃嚰TW_7397
-      - 🇺🇸 Relay_馃嚭馃嚫US-馃嚭馃嚫US_9032
-      - 🇰🇷 Relay_馃嚭馃嚫US-馃嚢馃嚪KR_7913
-      - 🇨🇳 Relay_馃嚬馃嚰TW-馃嚬馃嚰TW_7393
-      - 🇺🇸 Relay_馃嚭馃嚫US-馃嚭馃嚫US_9060
-      - 🇺🇸 Relay_馃嚭馃嚫US-馃嚭馃嚫US_9045
-      - 🇺🇸 馃嚭馃嚫US_9059
-      - 🇺🇸 Relay_馃嚭馃嚫US-馃嚭馃嚫US_9070
-      - 🇺🇸 Relay_馃嚭馃嚫US-馃嚭馃嚫US_9044
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 10
   - name: 🎯 国内网络
     type: select
     proxies:
@@ -242,13 +242,7 @@ proxy-groups:
   - name: 🇺🇲 美国节点
     type: select
     proxies:
-      - 🇺🇸 Relay_馃嚭馃嚫US-馃嚭馃嚫US_9032
-      - 🇰🇷 Relay_馃嚭馃嚫US-馃嚢馃嚪KR_7913
-      - 🇺🇸 Relay_馃嚭馃嚫US-馃嚭馃嚫US_9060
-      - 🇺🇸 Relay_馃嚭馃嚫US-馃嚭馃嚫US_9045
-      - 🇺🇸 馃嚭馃嚫US_9059
-      - 🇺🇸 Relay_馃嚭馃嚫US-馃嚭馃嚫US_9070
-      - 🇺🇸 Relay_馃嚭馃嚫US-馃嚭馃嚫US_9044
+      - DIRECT
   - name: 🇸🇬 新加坡节点
     type: select
     proxies:
@@ -256,12 +250,11 @@ proxy-groups:
   - name: 🇨🇳 台湾节点
     type: select
     proxies:
-      - 🇨🇳 Relay_馃嚬馃嚰TW-馃嚬馃嚰TW_7397
-      - 🇨🇳 Relay_馃嚬馃嚰TW-馃嚬馃嚰TW_7393
+      - DIRECT
   - name: 🇰🇷 韩国节点
     type: select
     proxies:
-      - 🇰🇷 Relay_馃嚭馃嚫US-馃嚢馃嚪KR_7913
+      - DIRECT
   - name: 🎥 奈飞节点
     type: select
     proxies:
