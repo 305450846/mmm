@@ -5,38 +5,16 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 香港, server: ngzyd-1.okex-tradebot.xyz, port: 30002, type: vmess, uuid: 00c3083c-9923-41d1-8ca9-4ce565870424, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ngzyd-1.okex-tradebot.xyz}}
-  - {name: 🇰🇷 韩国, server: sg1.qtyuncloud.tk, port: 2052, type: vmess, uuid: 985df97c-9eab-3f96-b29b-26bb0f507812, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: sg1.qtyuncloud.tk}}
-  - {name: 🇯🇵 Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_19, server: ngzyd-1.okex-tradebot.xyz, port: 30006, type: vmess, uuid: 00c3083c-9923-41d1-8ca9-4ce565870424, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ngzyd-1.okex-tradebot.xyz}}
-  - {name: 🇭🇰 Relay_馃嚫馃嚞SG-馃嚟馃嚢HK_84, server: hkml.jjyun.ren, port: 88, type: vmess, uuid: be04b13b-a137-4c33-9ff6-a0289c47aa59, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: hkml.jjyun.ren}}
-  - {name: 🇭🇰 Relay_馃嚫馃嚞SG-馃嚟馃嚢HK_83, server: hkdll.jjyun.ren, port: 80, type: vmess, uuid: a6bdde94-ee0e-431c-9cda-0fa0ea24231d, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: hkdll.jjyun.ren}}
-  - {name: 🇭🇰 Relay_馃嚫馃嚞SG-馃嚟馃嚢HK_85, server: hkml.jjyun.ren, port: 80, type: vmess, uuid: a6bdde94-ee0e-431c-9cda-0fa0ea24231d, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: hkml.jjyun.ren}}
-  - {name: 🇭🇰 Relay_馃嚟馃嚢HK-馃嚡馃嚨JP_42, server: azhka.uck.life, port: 20213, type: vmess, uuid: 4d82c2c6-b8e6-42f0-a827-4e081a308e30, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: azhka.uck.life}}
-  - {name: 🇯🇵 Relay_馃嚡馃嚨JP-馃嚡馃嚨JP_56, server: jp1.qtyuncloud.tk, port: 2052, type: vmess, uuid: 985df97c-9eab-3f96-b29b-26bb0f507812, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: jp1.qtyuncloud.tk}}
-  - {name: 🇭🇰 Relay_馃嚫馃嚞SG-馃嚟馃嚢HK_78, server: hkml.jjyun.ren, port: 88, type: vmess, uuid: 46261109-aa54-47e7-8ad1-8e170af43af1, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: hkml.jjyun.ren}}
-  - {name: 🇸🇬 Relay_馃嚫馃嚞SG-馃嚫馃嚞SG_82, server: sg2.qtyuncloud.tk, port: 2052, type: vmess, uuid: 985df97c-9eab-3f96-b29b-26bb0f507812, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: sg2.qtyuncloud.tk}}
-  - {name: 🇭🇰 Relay_馃嚫馃嚞SG-馃嚟馃嚢HK_86, server: hkml.jjyun.ren, port: 80, type: vmess, uuid: be04b13b-a137-4c33-9ff6-a0289c47aa59, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: hkml.jjyun.ren}}
-  - {name: 🇭🇰 Relay_馃嚫馃嚞SG-馃嚟馃嚢HK_75, server: hkdll.jjyun.ren, port: 80, type: vmess, uuid: be04b13b-a137-4c33-9ff6-a0289c47aa59, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: hkdll.jjyun.ren}}
-  - {name: 🇺🇸 馃嚭馃嚫US_16885, server: 66.115.177.143, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 🇭🇰 Relay_馃嚫馃嚞SG-馃嚟馃嚢HK_80, server: hkml.jjyun.ren, port: 88, type: vmess, uuid: a6bdde94-ee0e-431c-9cda-0fa0ea24231d, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: hkml.jjyun.ren}}
-  - {name: 🇷🇺 Relay_馃嚪馃嚭RU-馃嚪馃嚭RU_3206, server: t6.ssrsub.com, port: 8443, type: trojan, password: 40879770-9fd5-461b-928f-7688bfff6e42, sni: t6.ssrsub.com}
-  - {name: 🇺🇸 Pool_馃嚭馃嚫US_3685, server: 84.17.41.71, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 Relay_馃嚭馃嚫US-馃嚭馃嚫US_4776, server: t1.ssrsub.com, port: 8443, type: trojan, password: 2faeb94c-1be6-4e31-a30c-c0cbf5f4a1d5, sni: t1.ssrsub.com}
-  - {name: 🇺🇸 Relay_馃嚭馃嚫US-馃嚭馃嚫US_10362, server: 68.183.250.212, port: 11394, type: ssr, cipher: aes-256-cfb, password: a02660, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: ""}
-  - {name: 🇺🇸 Pool_馃嚭馃嚫US |12.39Mb, server: 89.187.187.66, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇭🇰 Relay_馃嚫馃嚞SG-馃嚟馃嚢HK_81, server: hkml.jjyun.ren, port: 80, type: vmess, uuid: 46261109-aa54-47e7-8ad1-8e170af43af1, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: hkml.jjyun.ren}}
-  - {name: 🇺🇸 Relay_馃嚭馃嚫US-馃嚭馃嚫US_4844, server: t1.ssrsub.com, port: 8443, type: trojan, password: 40879770-9fd5-461b-928f-7688bfff6e42, sni: t1.ssrsub.com}
-  - {name: Pool_馃嚠馃嚬IT_2192, server: 82.102.26.117, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇭🇰 Pool_馃嚟馃嚢HK_5293, server: 118.107.244.114, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 Pool_馃嚭馃嚫US_102, server: 84.17.35.83, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 🇺🇸 Pool_馃嚭馃嚫US | 2.81Mb, server: 64.44.42.60, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: Pool_馃嚚馃嚟CH_172, server: 84.39.114.86, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_546, server: t8.ssrsub.com, port: 8443, type: trojan, password: 40879770-9fd5-461b-928f-7688bfff6e42, sni: t8.ssrsub.com}
-  - {name: 🇺🇸 Pool_馃嚭馃嚫US_9274, server: 212.102.44.86, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 🇺🇸 Pool_馃嚭馃嚫US_9771, server: 66.115.177.156, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇺🇸 Pool_馃嚭馃嚫US | 5.90Mb, server: 63.141.248.181, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: Pool_馃嚠馃嚬IT_2162, server: 82.102.26.93, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 🇺🇸 Pool_馃嚭馃嚫US | 4.39Mb, server: 64.44.42.60, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 🇨🇳 Relay_馃嚚馃嚦CN-馃弫ZZ_789, server: global.sggov.lion1.cucutube.com, port: 9107, type: vmess, uuid: ef631ac3-b101-4136-bca2-bc0057203cb9, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: www.baidu.com}}
+  - {name: 🇭🇰 HK_22, server: hkf2.dior.bar, port: 80, type: vmess, uuid: 243c70f9-1a0d-4a64-91ae-49f177722932, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
+  - {name: 🇺🇸 US_69, server: 104.244.208.211, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 🇺🇸 馃嚭馃嚫US_18229, server: 199.193.126.73, port: 26917, type: vmess, uuid: 3bc30c04-4854-47bc-80b5-4fbb2364006e, alterId: 8, cipher: auto, tls: false}
+  - {name: 🇷🇴 馃嚪馃嚧RO_9263 |17.48Mb, server: 79.110.54.133, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
+  - {name: 🇺🇸 馃嚭馃嚫US_18228, server: 23.83.225.140, port: 26917, type: vmess, uuid: 3bc30c04-4854-47bc-80b5-4fbb2364006e, alterId: 8, cipher: auto, tls: false}
+  - {name: 🇷🇴 馃嚪馃嚧RO_9262 |16.60Mb, server: 79.110.54.133, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇸 馃嚭馃嚫US_11652, server: usgia.jjyun.ren, port: 88, type: vmess, uuid: c3ddd243-c953-4a5e-b458-d0c8e35c432c, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: usgia.jjyun.ren}}
+  - {name: 🇺🇸 馃嚭馃嚫US_4364, server: 143.198.76.254, port: 80, type: vmess, uuid: 02246a03-6cdf-3f65-95c8-0685f8284236, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: m.sc.189.cn}}
+  - {name: 🇷🇴 馃嚪馃嚧RO_9266 | 9.37Mb, server: 79.110.54.133, port: 49202, type: ss, cipher: aes-256-gcm, password: btzEYXKZxnR7g6H2vFTQK5TD}
 proxy-groups:
   - name: 🚀 全局设置
     type: select
@@ -54,75 +32,31 @@ proxy-groups:
   - name: 🚀 手动选择
     type: select
     proxies:
-      - 🇭🇰 香港
-      - 🇰🇷 韩国
-      - 🇯🇵 Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_19
-      - 🇭🇰 Relay_馃嚫馃嚞SG-馃嚟馃嚢HK_84
-      - 🇭🇰 Relay_馃嚫馃嚞SG-馃嚟馃嚢HK_83
-      - 🇭🇰 Relay_馃嚫馃嚞SG-馃嚟馃嚢HK_85
-      - 🇭🇰 Relay_馃嚟馃嚢HK-馃嚡馃嚨JP_42
-      - 🇯🇵 Relay_馃嚡馃嚨JP-馃嚡馃嚨JP_56
-      - 🇭🇰 Relay_馃嚫馃嚞SG-馃嚟馃嚢HK_78
-      - 🇸🇬 Relay_馃嚫馃嚞SG-馃嚫馃嚞SG_82
-      - 🇭🇰 Relay_馃嚫馃嚞SG-馃嚟馃嚢HK_86
-      - 🇭🇰 Relay_馃嚫馃嚞SG-馃嚟馃嚢HK_75
-      - 🇺🇸 馃嚭馃嚫US_16885
-      - 🇭🇰 Relay_馃嚫馃嚞SG-馃嚟馃嚢HK_80
-      - 🇷🇺 Relay_馃嚪馃嚭RU-馃嚪馃嚭RU_3206
-      - 🇺🇸 Pool_馃嚭馃嚫US_3685
-      - 🇺🇸 Relay_馃嚭馃嚫US-馃嚭馃嚫US_4776
-      - 🇺🇸 Relay_馃嚭馃嚫US-馃嚭馃嚫US_10362
-      - 🇺🇸 Pool_馃嚭馃嚫US |12.39Mb
-      - 🇭🇰 Relay_馃嚫馃嚞SG-馃嚟馃嚢HK_81
-      - 🇺🇸 Relay_馃嚭馃嚫US-馃嚭馃嚫US_4844
-      - Pool_馃嚠馃嚬IT_2192
-      - 🇭🇰 Pool_馃嚟馃嚢HK_5293
-      - 🇺🇸 Pool_馃嚭馃嚫US_102
-      - 🇺🇸 Pool_馃嚭馃嚫US | 2.81Mb
-      - Pool_馃嚚馃嚟CH_172
-      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_546
-      - 🇺🇸 Pool_馃嚭馃嚫US_9274
-      - 🇺🇸 Pool_馃嚭馃嚫US_9771
-      - 🇺🇸 Pool_馃嚭馃嚫US | 5.90Mb
-      - Pool_馃嚠馃嚬IT_2162
-      - 🇺🇸 Pool_馃嚭馃嚫US | 4.39Mb
+      - 🇨🇳 Relay_馃嚚馃嚦CN-馃弫ZZ_789
+      - 🇭🇰 HK_22
+      - 🇺🇸 US_69
+      - 🇺🇸 馃嚭馃嚫US_18229
+      - 🇷🇴 馃嚪馃嚧RO_9263 |17.48Mb
+      - 🇺🇸 馃嚭馃嚫US_18228
+      - 🇷🇴 馃嚪馃嚧RO_9262 |16.60Mb
+      - 🇺🇸 馃嚭馃嚫US_11652
+      - 🇺🇸 馃嚭馃嚫US_4364
+      - 🇷🇴 馃嚪馃嚧RO_9266 | 9.37Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 香港
-      - 🇰🇷 韩国
-      - 🇯🇵 Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_19
-      - 🇭🇰 Relay_馃嚫馃嚞SG-馃嚟馃嚢HK_84
-      - 🇭🇰 Relay_馃嚫馃嚞SG-馃嚟馃嚢HK_83
-      - 🇭🇰 Relay_馃嚫馃嚞SG-馃嚟馃嚢HK_85
-      - 🇭🇰 Relay_馃嚟馃嚢HK-馃嚡馃嚨JP_42
-      - 🇯🇵 Relay_馃嚡馃嚨JP-馃嚡馃嚨JP_56
-      - 🇭🇰 Relay_馃嚫馃嚞SG-馃嚟馃嚢HK_78
-      - 🇸🇬 Relay_馃嚫馃嚞SG-馃嚫馃嚞SG_82
-      - 🇭🇰 Relay_馃嚫馃嚞SG-馃嚟馃嚢HK_86
-      - 🇭🇰 Relay_馃嚫馃嚞SG-馃嚟馃嚢HK_75
-      - 🇺🇸 馃嚭馃嚫US_16885
-      - 🇭🇰 Relay_馃嚫馃嚞SG-馃嚟馃嚢HK_80
-      - 🇷🇺 Relay_馃嚪馃嚭RU-馃嚪馃嚭RU_3206
-      - 🇺🇸 Pool_馃嚭馃嚫US_3685
-      - 🇺🇸 Relay_馃嚭馃嚫US-馃嚭馃嚫US_4776
-      - 🇺🇸 Relay_馃嚭馃嚫US-馃嚭馃嚫US_10362
-      - 🇺🇸 Pool_馃嚭馃嚫US |12.39Mb
-      - 🇭🇰 Relay_馃嚫馃嚞SG-馃嚟馃嚢HK_81
-      - 🇺🇸 Relay_馃嚭馃嚫US-馃嚭馃嚫US_4844
-      - Pool_馃嚠馃嚬IT_2192
-      - 🇭🇰 Pool_馃嚟馃嚢HK_5293
-      - 🇺🇸 Pool_馃嚭馃嚫US_102
-      - 🇺🇸 Pool_馃嚭馃嚫US | 2.81Mb
-      - Pool_馃嚚馃嚟CH_172
-      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_546
-      - 🇺🇸 Pool_馃嚭馃嚫US_9274
-      - 🇺🇸 Pool_馃嚭馃嚫US_9771
-      - 🇺🇸 Pool_馃嚭馃嚫US | 5.90Mb
-      - Pool_馃嚠馃嚬IT_2162
-      - 🇺🇸 Pool_馃嚭馃嚫US | 4.39Mb
+      - 🇨🇳 Relay_馃嚚馃嚦CN-馃弫ZZ_789
+      - 🇭🇰 HK_22
+      - 🇺🇸 US_69
+      - 🇺🇸 馃嚭馃嚫US_18229
+      - 🇷🇴 馃嚪馃嚧RO_9263 |17.48Mb
+      - 🇺🇸 馃嚭馃嚫US_18228
+      - 🇷🇴 馃嚪馃嚧RO_9262 |16.60Mb
+      - 🇺🇸 馃嚭馃嚫US_11652
+      - 🇺🇸 馃嚭馃嚫US_4364
+      - 🇷🇴 馃嚪馃嚧RO_9266 | 9.37Mb
   - name: 🎯 国内网络
     type: select
     proxies:
@@ -300,50 +234,23 @@ proxy-groups:
   - name: 🇭🇰 香港节点
     type: select
     proxies:
-      - 🇭🇰 香港
-      - 🇭🇰 Relay_馃嚫馃嚞SG-馃嚟馃嚢HK_84
-      - 🇭🇰 Relay_馃嚫馃嚞SG-馃嚟馃嚢HK_83
-      - 🇭🇰 Relay_馃嚫馃嚞SG-馃嚟馃嚢HK_85
-      - 🇭🇰 Relay_馃嚟馃嚢HK-馃嚡馃嚨JP_42
-      - 🇭🇰 Relay_馃嚫馃嚞SG-馃嚟馃嚢HK_78
-      - 🇭🇰 Relay_馃嚫馃嚞SG-馃嚟馃嚢HK_86
-      - 🇭🇰 Relay_馃嚫馃嚞SG-馃嚟馃嚢HK_75
-      - 🇭🇰 Relay_馃嚫馃嚞SG-馃嚟馃嚢HK_80
-      - 🇭🇰 Relay_馃嚫馃嚞SG-馃嚟馃嚢HK_81
-      - 🇭🇰 Pool_馃嚟馃嚢HK_5293
+      - 🇭🇰 HK_22
   - name: 🇯🇵 日本节点
     type: select
     proxies:
-      - 🇯🇵 Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_19
-      - 🇭🇰 Relay_馃嚟馃嚢HK-馃嚡馃嚨JP_42
-      - 🇯🇵 Relay_馃嚡馃嚨JP-馃嚡馃嚨JP_56
+      - DIRECT
   - name: 🇺🇲 美国节点
     type: select
     proxies:
-      - 🇺🇸 馃嚭馃嚫US_16885
-      - 🇺🇸 Pool_馃嚭馃嚫US_3685
-      - 🇺🇸 Relay_馃嚭馃嚫US-馃嚭馃嚫US_4776
-      - 🇺🇸 Relay_馃嚭馃嚫US-馃嚭馃嚫US_10362
-      - 🇺🇸 Pool_馃嚭馃嚫US |12.39Mb
-      - 🇺🇸 Relay_馃嚭馃嚫US-馃嚭馃嚫US_4844
-      - 🇺🇸 Pool_馃嚭馃嚫US_102
-      - 🇺🇸 Pool_馃嚭馃嚫US | 2.81Mb
-      - 🇺🇸 Pool_馃嚭馃嚫US_9274
-      - 🇺🇸 Pool_馃嚭馃嚫US_9771
-      - 🇺🇸 Pool_馃嚭馃嚫US | 5.90Mb
-      - 🇺🇸 Pool_馃嚭馃嚫US | 4.39Mb
+      - 🇺🇸 US_69
+      - 🇺🇸 馃嚭馃嚫US_18229
+      - 🇺🇸 馃嚭馃嚫US_18228
+      - 🇺🇸 馃嚭馃嚫US_11652
+      - 🇺🇸 馃嚭馃嚫US_4364
   - name: 🇸🇬 新加坡节点
     type: select
     proxies:
-      - 🇭🇰 Relay_馃嚫馃嚞SG-馃嚟馃嚢HK_84
-      - 🇭🇰 Relay_馃嚫馃嚞SG-馃嚟馃嚢HK_83
-      - 🇭🇰 Relay_馃嚫馃嚞SG-馃嚟馃嚢HK_85
-      - 🇭🇰 Relay_馃嚫馃嚞SG-馃嚟馃嚢HK_78
-      - 🇸🇬 Relay_馃嚫馃嚞SG-馃嚫馃嚞SG_82
-      - 🇭🇰 Relay_馃嚫馃嚞SG-馃嚟馃嚢HK_86
-      - 🇭🇰 Relay_馃嚫馃嚞SG-馃嚟馃嚢HK_75
-      - 🇭🇰 Relay_馃嚫馃嚞SG-馃嚟馃嚢HK_80
-      - 🇭🇰 Relay_馃嚫馃嚞SG-馃嚟馃嚢HK_81
+      - DIRECT
   - name: 🇨🇳 台湾节点
     type: select
     proxies:
@@ -351,7 +258,7 @@ proxy-groups:
   - name: 🇰🇷 韩国节点
     type: select
     proxies:
-      - 🇰🇷 韩国
+      - DIRECT
   - name: 🎥 奈飞节点
     type: select
     proxies:
@@ -2639,6 +2546,7 @@ rules:
  - DOMAIN-SUFFIX,cloudcone.com,🚀 全局设置
  - DOMAIN-SUFFIX,gameloft.com,🚀 全局设置
  - DOMAIN-SUFFIX,garena.com,🚀 全局设置
+ - DOMAIN-SUFFIX,hoyolab.com,🚀 全局设置
  - DOMAIN-SUFFIX,inoreader.com,🚀 全局设置
  - DOMAIN-SUFFIX,ip138.com,🚀 全局设置
  - DOMAIN-SUFFIX,ping.pe,🚀 全局设置
