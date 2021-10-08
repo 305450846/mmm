@@ -5,16 +5,26 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇨🇳 Relay_馃嚚馃嚦CN-馃弫ZZ_789, server: global.sggov.lion1.cucutube.com, port: 9107, type: vmess, uuid: ef631ac3-b101-4136-bca2-bc0057203cb9, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: www.baidu.com}}
-  - {name: 🇭🇰 HK_22, server: hkf2.dior.bar, port: 80, type: vmess, uuid: 243c70f9-1a0d-4a64-91ae-49f177722932, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
-  - {name: 🇺🇸 US_69, server: 104.244.208.211, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 🇺🇸 馃嚭馃嚫US_18229, server: 199.193.126.73, port: 26917, type: vmess, uuid: 3bc30c04-4854-47bc-80b5-4fbb2364006e, alterId: 8, cipher: auto, tls: false}
-  - {name: 🇷🇴 馃嚪馃嚧RO_9263 |17.48Mb, server: 79.110.54.133, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
-  - {name: 🇺🇸 馃嚭馃嚫US_18228, server: 23.83.225.140, port: 26917, type: vmess, uuid: 3bc30c04-4854-47bc-80b5-4fbb2364006e, alterId: 8, cipher: auto, tls: false}
-  - {name: 🇷🇴 馃嚪馃嚧RO_9262 |16.60Mb, server: 79.110.54.133, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇺🇸 馃嚭馃嚫US_11652, server: usgia.jjyun.ren, port: 88, type: vmess, uuid: c3ddd243-c953-4a5e-b458-d0c8e35c432c, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: usgia.jjyun.ren}}
-  - {name: 🇺🇸 馃嚭馃嚫US_4364, server: 143.198.76.254, port: 80, type: vmess, uuid: 02246a03-6cdf-3f65-95c8-0685f8284236, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: m.sc.189.cn}}
-  - {name: 🇷🇴 馃嚪馃嚧RO_9266 | 9.37Mb, server: 79.110.54.133, port: 49202, type: ss, cipher: aes-256-gcm, password: btzEYXKZxnR7g6H2vFTQK5TD}
+  - {name: Relay_-馃嚟馃嚢HK_794, server: gy.xqcloud.net, port: 31003, type: ss, cipher: chacha20-ietf-poly1305, password: e4c95012-82f1-442b-ad22-79a11d23a40c, udp: true}
+  - {name: 馃嚟馃嚢HK_2093, server: 52.229.167.3, port: 80, type: vmess, uuid: d9966fd2-5942-3b79-973d-f9c65c04e3ae, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 52.229.167.3}, udp: true}
+  - {name: Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_871, server: gz2.52168.xyz, port: 2109, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 17979:HUK23r, obfs-param: bf7ef17979.baidu.com, udp: true}
+  - {name: Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_288, server: gy1-120.lhcloud.xyz, port: 40065, type: vmess, uuid: 554ea5c7-4040-4a70-9467-83a8dc6fc7f9, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gy1-120.lhcloud.xyz}, udp: true}
+  - {name: Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_290, server: gy1-120.lhcloud.xyz, port: 40002, type: vmess, uuid: 554ea5c7-4040-4a70-9467-83a8dc6fc7f9, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gy1-120.lhcloud.xyz}, udp: true}
+  - {name: 馃嚟馃嚢HK_2090, server: 207.46.144.237, port: 80, type: vmess, uuid: d9966fd2-5942-3b79-973d-f9c65c04e3ae, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: JJkuv3, ws-headers: {Host: 207.46.144.237}, udp: true}
+  - {name: Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_929, server: rxzgzq.moox.icu, port: 34025, type: vmess, uuid: 9a42cfbc-aeac-4940-a593-555db6af20ca, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: rxzgzq.moox.icu}, udp: true}
+  - {name: Relay_馃嚟馃嚢HK-馃嚭馃嚫US_2092, server: cw.cwzz.tk, port: 49339, type: vmess, uuid: d9966fd2-5942-3b79-973d-f9c65c04e3ae, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: a.189.cn}, udp: true}
+  - {name: Relay_-馃嚟馃嚢HK_1102, server: gy.xqcloud.net, port: 31001, type: ss, cipher: chacha20-ietf-poly1305, password: e4c95012-82f1-442b-ad22-79a11d23a40c, udp: true}
+  - {name: Relay_馃嚚馃嚦CN-馃嚭馃嚫US_289, server: gy1-120.lhcloud.xyz, port: 40059, type: vmess, uuid: 554ea5c7-4040-4a70-9467-83a8dc6fc7f9, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gy1-120.lhcloud.xyz}, udp: true}
+  - {name: Relay_馃嚚馃嚦CN-馃嚭馃嚫US_287, server: gy1-120.lhcloud.xyz, port: 40059, type: vmess, uuid: a879f325-5b3b-41df-ba4f-bc7bff2cf2f7, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gy1-120.lhcloud.xyz}, udp: true}
+  - {name: 馃嚚馃嚦CN_4668, server: jp2.xh.qjnodeip.xyz, port: 62869, type: vmess, uuid: 92aa60ca-1349-3fcb-9824-663972a108f1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_馃嚫馃嚞SG-馃嚫馃嚞SG_7778, server: sg2.xh.qjnodeip.xyz, port: 2002, type: vmess, uuid: 92aa60ca-1349-3fcb-9824-663972a108f1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: sg2.xh.qjnodeip.xyz}, udp: true}
+  - {name: Relay_馃嚫馃嚞SG-馃嚫馃嚞SG_7781, server: sg1.xh.qjnodeip.xyz, port: 20102, type: vmess, uuid: e91bcbc6-e52f-3d0c-823e-837b17634982, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: 13.76.226.184}, udp: true}
+  - {name: 馃嚟馃嚢HK_2089, server: 52.175.121.142, port: 80, type: vmess, uuid: d9966fd2-5942-3b79-973d-f9c65c04e3ae, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 52.175.121.142}, udp: true}
+  - {name: Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_898, server: rxzgzq.moox.icu, port: 34004, type: vmess, uuid: 9a42cfbc-aeac-4940-a593-555db6af20ca, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hinetddns.qiqifamily.top}, udp: true}
+  - {name: Relay_馃嚫馃嚞SG-馃嚫馃嚞SG_7780, server: sg2.xh.qjnodeip.xyz, port: 2002, type: vmess, uuid: e91bcbc6-e52f-3d0c-823e-837b17634982, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: sg2.xh.qjnodeip.xyz}, udp: true}
+  - {name: Relay_馃嚫馃嚞SG-馃嚫馃嚞SG_7779, server: sg1.xh.qjnodeip.xyz, port: 20102, type: vmess, uuid: 92aa60ca-1349-3fcb-9824-663972a108f1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: 13.76.226.184}, udp: true}
+  - {name: Relay_-馃嚢馃嚪KR_1086, server: gy.xqcloud.net, port: 32008, type: ss, cipher: chacha20-ietf-poly1305, password: e4c95012-82f1-442b-ad22-79a11d23a40c, udp: true}
+  - {name: Relay_-馃嚡馃嚨JP_68, server: gy.xqcloud.net, port: 31008, type: ss, cipher: chacha20-ietf-poly1305, password: e4c95012-82f1-442b-ad22-79a11d23a40c, udp: true}
 proxy-groups:
   - name: 🚀 全局设置
     type: select
@@ -32,31 +42,51 @@ proxy-groups:
   - name: 🚀 手动选择
     type: select
     proxies:
-      - 🇨🇳 Relay_馃嚚馃嚦CN-馃弫ZZ_789
-      - 🇭🇰 HK_22
-      - 🇺🇸 US_69
-      - 🇺🇸 馃嚭馃嚫US_18229
-      - 🇷🇴 馃嚪馃嚧RO_9263 |17.48Mb
-      - 🇺🇸 馃嚭馃嚫US_18228
-      - 🇷🇴 馃嚪馃嚧RO_9262 |16.60Mb
-      - 🇺🇸 馃嚭馃嚫US_11652
-      - 🇺🇸 馃嚭馃嚫US_4364
-      - 🇷🇴 馃嚪馃嚧RO_9266 | 9.37Mb
+      - Relay_-馃嚟馃嚢HK_794
+      - 馃嚟馃嚢HK_2093
+      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_871
+      - Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_288
+      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_290
+      - 馃嚟馃嚢HK_2090
+      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_929
+      - Relay_馃嚟馃嚢HK-馃嚭馃嚫US_2092
+      - Relay_-馃嚟馃嚢HK_1102
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_289
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_287
+      - 馃嚚馃嚦CN_4668
+      - Relay_馃嚫馃嚞SG-馃嚫馃嚞SG_7778
+      - Relay_馃嚫馃嚞SG-馃嚫馃嚞SG_7781
+      - 馃嚟馃嚢HK_2089
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_898
+      - Relay_馃嚫馃嚞SG-馃嚫馃嚞SG_7780
+      - Relay_馃嚫馃嚞SG-馃嚫馃嚞SG_7779
+      - Relay_-馃嚢馃嚪KR_1086
+      - Relay_-馃嚡馃嚨JP_68
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇨🇳 Relay_馃嚚馃嚦CN-馃弫ZZ_789
-      - 🇭🇰 HK_22
-      - 🇺🇸 US_69
-      - 🇺🇸 馃嚭馃嚫US_18229
-      - 🇷🇴 馃嚪馃嚧RO_9263 |17.48Mb
-      - 🇺🇸 馃嚭馃嚫US_18228
-      - 🇷🇴 馃嚪馃嚧RO_9262 |16.60Mb
-      - 🇺🇸 馃嚭馃嚫US_11652
-      - 🇺🇸 馃嚭馃嚫US_4364
-      - 🇷🇴 馃嚪馃嚧RO_9266 | 9.37Mb
+      - Relay_-馃嚟馃嚢HK_794
+      - 馃嚟馃嚢HK_2093
+      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_871
+      - Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_288
+      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_290
+      - 馃嚟馃嚢HK_2090
+      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_929
+      - Relay_馃嚟馃嚢HK-馃嚭馃嚫US_2092
+      - Relay_-馃嚟馃嚢HK_1102
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_289
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_287
+      - 馃嚚馃嚦CN_4668
+      - Relay_馃嚫馃嚞SG-馃嚫馃嚞SG_7778
+      - Relay_馃嚫馃嚞SG-馃嚫馃嚞SG_7781
+      - 馃嚟馃嚢HK_2089
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_898
+      - Relay_馃嚫馃嚞SG-馃嚫馃嚞SG_7780
+      - Relay_馃嚫馃嚞SG-馃嚫馃嚞SG_7779
+      - Relay_-馃嚢馃嚪KR_1086
+      - Relay_-馃嚡馃嚨JP_68
   - name: 🎯 国内网络
     type: select
     proxies:
@@ -234,31 +264,41 @@ proxy-groups:
   - name: 🇭🇰 香港节点
     type: select
     proxies:
-      - 🇭🇰 HK_22
+      - Relay_-馃嚟馃嚢HK_794
+      - 馃嚟馃嚢HK_2093
+      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_871
+      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_290
+      - 馃嚟馃嚢HK_2090
+      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_929
+      - Relay_馃嚟馃嚢HK-馃嚭馃嚫US_2092
+      - Relay_-馃嚟馃嚢HK_1102
+      - 馃嚟馃嚢HK_2089
   - name: 🇯🇵 日本节点
     type: select
     proxies:
-      - DIRECT
+      - Relay_-馃嚡馃嚨JP_68
   - name: 🇺🇲 美国节点
     type: select
     proxies:
-      - 🇺🇸 US_69
-      - 🇺🇸 馃嚭馃嚫US_18229
-      - 🇺🇸 馃嚭馃嚫US_18228
-      - 🇺🇸 馃嚭馃嚫US_11652
-      - 🇺🇸 馃嚭馃嚫US_4364
+      - Relay_馃嚟馃嚢HK-馃嚭馃嚫US_2092
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_289
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_287
   - name: 🇸🇬 新加坡节点
     type: select
     proxies:
-      - DIRECT
+      - Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_288
+      - Relay_馃嚫馃嚞SG-馃嚫馃嚞SG_7778
+      - Relay_馃嚫馃嚞SG-馃嚫馃嚞SG_7781
+      - Relay_馃嚫馃嚞SG-馃嚫馃嚞SG_7780
+      - Relay_馃嚫馃嚞SG-馃嚫馃嚞SG_7779
   - name: 🇨🇳 台湾节点
     type: select
     proxies:
-      - DIRECT
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_898
   - name: 🇰🇷 韩国节点
     type: select
     proxies:
-      - DIRECT
+      - Relay_-馃嚢馃嚪KR_1086
   - name: 🎥 奈飞节点
     type: select
     proxies:
