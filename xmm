@@ -425,6 +425,261 @@ proxies:
       headers:
         Host: d2e9wi29qtkpfc.cloudfront.net
     udp: true
+  - name: 韩国11
+    server: 18.65.203.153
+    port: 443
+    type: vmess
+    uuid: 96f83453-205a-4525-ec21-e8009a1c825e
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /96f83453-205a-4525-ec21-e8009a1c825e
+      headers:
+        Host: d2e9wi29qtkpfc.cloudfront.net
+    udp: true
+  - name: 韩国12
+    server: 18.65.209.56
+    port: 443
+    type: vmess
+    uuid: 96f83453-205a-4525-ec21-e8009a1c825e
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /96f83453-205a-4525-ec21-e8009a1c825e
+      headers:
+        Host: d2e9wi29qtkpfc.cloudfront.net
+    udp: true
+  - name: 新加坡2
+    server: 204.246.166.79
+    port: 443
+    type: vmess
+    uuid: 96f83453-205a-4525-ec21-e8009a1c825e
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /96f83453-205a-4525-ec21-e8009a1c825e
+      headers:
+        Host: d2e9wi29qtkpfc.cloudfront.net
+    udp: true
+  - name: 新加坡3
+    server: 204.246.164.84
+    port: 443
+    type: vmess
+    uuid: 96f83453-205a-4525-ec21-e8009a1c825e
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /96f83453-205a-4525-ec21-e8009a1c825e
+      headers:
+        Host: d2e9wi29qtkpfc.cloudfront.net
+    udp: true
+  - name: 日本11
+    server: 54.230.174.70
+    port: 443
+    type: vmess
+    uuid: 96f83453-205a-4525-ec21-e8009a1c825e
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /96f83453-205a-4525-ec21-e8009a1c825e
+      headers:
+        Host: d2e9wi29qtkpfc.cloudfront.net
+    udp: true
+  - name: 日本12
+    server: 54.230.172.213
+    port: 443
+    type: vmess
+    uuid: 96f83453-205a-4525-ec21-e8009a1c825e
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /96f83453-205a-4525-ec21-e8009a1c825e
+      headers:
+        Host: d2e9wi29qtkpfc.cloudfront.net
+    udp: true
+  - name: 旧金山1
+    server: 15.158.36.46
+    port: 443
+    type: vmess
+    uuid: 96f83453-205a-4525-ec21-e8009a1c825e
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /96f83453-205a-4525-ec21-e8009a1c825e
+      headers:
+        Host: d2e9wi29qtkpfc.cloudfront.net
+    udp: true
+  - name: 旧金山2
+    server: 15.158.4.138
+    port: 443
+    type: vmess
+    uuid: 96f83453-205a-4525-ec21-e8009a1c825e
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /96f83453-205a-4525-ec21-e8009a1c825e
+      headers:
+        Host: d2e9wi29qtkpfc.cloudfront.net
+    udp: true
+  - name: 旧金山3
+    server: 15.158.5.23
+    port: 443
+    type: vmess
+    uuid: 96f83453-205a-4525-ec21-e8009a1c825e
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /96f83453-205a-4525-ec21-e8009a1c825e
+      headers:
+        Host: d2e9wi29qtkpfc.cloudfront.net
+    udp: true
+  - name: 旧金山4
+    server: 15.158.0.23
+    port: 443
+    type: vmess
+    uuid: 96f83453-205a-4525-ec21-e8009a1c825e
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /96f83453-205a-4525-ec21-e8009a1c825e
+      headers:
+        Host: d2e9wi29qtkpfc.cloudfront.net
+    udp: true
+  - name: 孟买1
+    server: 65.8.103.76
+    port: 443
+    type: vmess
+    uuid: 96f83453-205a-4525-ec21-e8009a1c825e
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /96f83453-205a-4525-ec21-e8009a1c825e
+      headers:
+        Host: d2e9wi29qtkpfc.cloudfront.net
+    udp: true
+  - name: 孟买2
+    server: 65.8.113.211
+    port: 443
+    type: vmess
+    uuid: 96f83453-205a-4525-ec21-e8009a1c825e
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /96f83453-205a-4525-ec21-e8009a1c825e
+      headers:
+        Host: d2e9wi29qtkpfc.cloudfront.net
+    udp: true
+  - name: 孟买3
+    server: 65.8.100.94
+    port: 443
+    type: vmess
+    uuid: 96f83453-205a-4525-ec21-e8009a1c825e
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /96f83453-205a-4525-ec21-e8009a1c825e
+      headers:
+        Host: d2e9wi29qtkpfc.cloudfront.net
+    udp: true
+  - name: 台湾11
+    server: 13.35.50.155
+    port: 443
+    type: vmess
+    uuid: 96f83453-205a-4525-ec21-e8009a1c825e
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /96f83453-205a-4525-ec21-e8009a1c825e
+      headers:
+        Host: d2e9wi29qtkpfc.cloudfront.net
+    udp: true
+  - name: 台湾12
+    server: 13.35.66.87
+    port: 443
+    type: vmess
+    uuid: 96f83453-205a-4525-ec21-e8009a1c825e
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /96f83453-205a-4525-ec21-e8009a1c825e
+      headers:
+        Host: d2e9wi29qtkpfc.cloudfront.net
+    udp: true
+  - name: 台湾13
+    server: 13.35.47.244
+    port: 443
+    type: vmess
+    uuid: 96f83453-205a-4525-ec21-e8009a1c825e
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /96f83453-205a-4525-ec21-e8009a1c825e
+      headers:
+        Host: d2e9wi29qtkpfc.cloudfront.net
+    udp: true
+  - name: 台湾14
+    server: 13.35.51.119
+    port: 443
+    type: vmess
+    uuid: 96f83453-205a-4525-ec21-e8009a1c825e
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /96f83453-205a-4525-ec21-e8009a1c825e
+      headers:
+        Host: d2e9wi29qtkpfc.cloudfront.net
+    udp: true
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -570,6 +825,8 @@ proxy-groups:
       - 日本8
       - 日本9
       - 日本10
+      - 日本11
+      - 日本12
       - 韩国1
       - 韩国2
       - 韩国3
@@ -577,7 +834,11 @@ proxy-groups:
       - 韩国5
       - 韩国6
       - 韩国7
+      - 韩国11
+      - 韩国12
       - 新加坡1
+      - 新加坡2
+      - 新加坡3
       - 台湾1
       - 台湾2
       - 台湾3
@@ -588,6 +849,17 @@ proxy-groups:
       - 台湾8
       - 台湾9
       - 台湾10
+      - 台湾11
+      - 台湾12
+      - 台湾13
+      - 台湾14
+      - 孟买1
+      - 孟买2
+      - 孟买3
+      - 旧金山1
+      - 旧金山2
+      - 旧金山3
+      - 旧金山4
   - name: 🐟 漏网之鱼
     type: select
     proxies:
