@@ -830,6 +830,141 @@ proxies:
       headers:
         Host: d2e9wi29qtkpfc.cloudfront.net
     udp: true
+  - name: CF香港1
+    server: 103.30.51.60
+    port: 443
+    type: vmess
+    uuid: 3cc642a7-c160-4911-a275-022fcfb1eb6b
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /3cc642a7-c160-4911-a275-022fcfb1eb6b
+      headers:
+        Host: cf.305450846.xyz
+    udp: true
+  - name: CF香港2
+    server: 150.129.218.198
+    port: 443
+    type: vmess
+    uuid: 3cc642a7-c160-4911-a275-022fcfb1eb6b
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /3cc642a7-c160-4911-a275-022fcfb1eb6b
+      headers:
+        Host: cf.305450846.xyz
+    udp: true
+  - name: CF香港3
+    server: 8.219.208.46
+    port: 443
+    type: vmess
+    uuid: 3cc642a7-c160-4911-a275-022fcfb1eb6b
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /3cc642a7-c160-4911-a275-022fcfb1eb6b
+      headers:
+        Host: cf.305450846.xyz
+    udp: true
+  - name: CF香港4
+    server: 8.222.225.48
+    port: 443
+    type: vmess
+    uuid: 3cc642a7-c160-4911-a275-022fcfb1eb6b
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /3cc642a7-c160-4911-a275-022fcfb1eb6b
+      headers:
+        Host: cf.305450846.xyz
+    udp: true
+  - name: CF香港5
+    server: 47.75.122.158
+    port: 443
+    type: vmess
+    uuid: 3cc642a7-c160-4911-a275-022fcfb1eb6b
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /3cc642a7-c160-4911-a275-022fcfb1eb6b
+      headers:
+        Host: cf.305450846.xyz
+    udp: true
+  - name: CF香港6
+    server: 8.219.41.160
+    port: 443
+    type: vmess
+    uuid: 3cc642a7-c160-4911-a275-022fcfb1eb6b
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /3cc642a7-c160-4911-a275-022fcfb1eb6b
+      headers:
+        Host: cf.305450846.xyz
+    udp: true
+  - name: CF香港7
+    server: 8.222.209.135
+    port: 443
+    type: vmess
+    uuid: 3cc642a7-c160-4911-a275-022fcfb1eb6b
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /3cc642a7-c160-4911-a275-022fcfb1eb6b
+      headers:
+        Host: cf.305450846.xyz
+    udp: true
+  - name: CF香港8
+    server: 8.219.57.5
+    port: 443
+    type: vmess
+    uuid: 3cc642a7-c160-4911-a275-022fcfb1eb6b
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /3cc642a7-c160-4911-a275-022fcfb1eb6b
+      headers:
+        Host: cf.305450846.xyz
+    udp: true
+  - name: CF香港9
+    server: 199.15.79.54
+    port: 443
+    type: vmess
+    uuid: 3cc642a7-c160-4911-a275-022fcfb1eb6b
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /3cc642a7-c160-4911-a275-022fcfb1eb6b
+      headers:
+        Host: cf.305450846.xyz
+    udp: true
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -838,6 +973,15 @@ proxy-groups:
       - ⚖️ 负载均衡-散列
       - ♻️ 自动选择
       - 🎯 全球直连
+      - CF香港1
+      - CF香港2
+      - CF香港3
+      - CF香港4
+      - CF香港5
+      - CF香港6
+      - CF香港7
+      - CF香港8
+      - CF香港9
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.google.com/generate_204
@@ -871,6 +1015,15 @@ proxy-groups:
       - 台湾8
       - 台湾9
       - 台湾10
+      - CF香港1
+      - CF香港2
+      - CF香港3
+      - CF香港4
+      - CF香港5
+      - CF香港6
+      - CF香港7
+      - CF香港8
+      - CF香港9
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -986,33 +1139,16 @@ proxy-groups:
       - 日本19
       - 日本20
       - 日本21
-      - 日本22	  
-      - 韩国1
-      - 韩国2
-      - 韩国3
-      - 韩国4
-      - 韩国5
-      - 韩国6
-      - 韩国7
-      - 韩国11
-      - 韩国12
-      - 新加坡1
-      - 新加坡2
-      - 新加坡3
-      - 台湾1
-      - 台湾2
-      - 台湾3
-      - 台湾4
-      - 台湾5
-      - 台湾6
-      - 台湾7
-      - 台湾8
-      - 台湾9
-      - 台湾10
-      - 台湾11
-      - 台湾12
-      - 台湾13
-      - 台湾14
+      - 日本22
+      - CF香港1
+      - CF香港2
+      - CF香港3
+      - CF香港4
+      - CF香港5
+      - CF香港6
+      - CF香港7
+      - CF香港8
+      - CF香港9
   - name: 🐟 漏网之鱼
     type: select
     proxies:
@@ -1044,6 +1180,10 @@ rules:
   - DOMAIN-SUFFIX,azureedge.net,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,azurerms.com,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,bing.com,🔰 节点选择
+  - DOMAIN-SUFFIX,ip123.in,🔰 节点选择
+  - DOMAIN-SUFFIX,openai.com,🔰 节点选择
+  - DOMAIN-SUFFIX,gcore.com,🔰 节点选择
+  - DOMAIN-SUFFIX,buliang0.cf,🔰 节点选择
   - DOMAIN-SUFFIX,cloudapp.net,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,cloudappsecurity.com,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,edgesuite.net,Ⓜ️ 微软服务
@@ -10588,6 +10728,7 @@ rules:
   - DOMAIN-SUFFIX,goodreads.com,🔰 节点选择
   - DOMAIN-SUFFIX,gov.tw,🔰 节点选择
   - DOMAIN-SUFFIX,gravatar.com,🔰 节点选择
+  - DOMAIN-SUFFIX,bulianglin.com,🔰 节点选择
   - DOMAIN-SUFFIX,greatfire.org,🔰 节点选择
   - DOMAIN-SUFFIX,gumroad.com,🔰 节点选择
   - DOMAIN-SUFFIX,heroku.com,🔰 节点选择
