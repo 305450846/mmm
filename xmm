@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - name: 日本1
+  - name: AWS日本1
     server: 54.230.120.231
     port: 443
     type: vmess
@@ -20,7 +20,7 @@ proxies:
       headers:
         Host: d2e9wi29qtkpfc.cloudfront.net
     udp: true
-  - name: 日本2
+  - name: AWS日本2
     server: 54.230.1.217
     port: 443
     type: vmess
@@ -35,7 +35,7 @@ proxies:
       headers:
         Host: d2e9wi29qtkpfc.cloudfront.net
     udp: true
-  - name: 日本3
+  - name: AWS日本3
     server: 54.230.121.182
     port: 443
     type: vmess
@@ -50,7 +50,7 @@ proxies:
       headers:
         Host: d2e9wi29qtkpfc.cloudfront.net
     udp: true
-  - name: 日本4
+  - name: AWS日本4
     server: 54.230.122.175
     port: 443
     type: vmess
@@ -65,7 +65,7 @@ proxies:
       headers:
         Host: d2e9wi29qtkpfc.cloudfront.net
     udp: true
-  - name: 日本5
+  - name: AWS日本5
     server: 54.230.2.45
     port: 443
     type: vmess
@@ -80,7 +80,7 @@ proxies:
       headers:
         Host: d2e9wi29qtkpfc.cloudfront.net
     udp: true
-  - name: 日本6
+  - name: AWS日本6
     server: 54.230.3.100
     port: 443
     type: vmess
@@ -95,7 +95,7 @@ proxies:
       headers:
         Host: d2e9wi29qtkpfc.cloudfront.net
     udp: true
-  - name: 日本7
+  - name: AWS日本7
     server: 54.230.0.169
     port: 443
     type: vmess
@@ -110,7 +110,7 @@ proxies:
       headers:
         Host: d2e9wi29qtkpfc.cloudfront.net
     udp: true
-  - name: 日本8
+  - name: AWS日本8
     server: 54.230.123.236
     port: 443
     type: vmess
@@ -125,7 +125,7 @@ proxies:
       headers:
         Host: d2e9wi29qtkpfc.cloudfront.net
     udp: true
-  - name: 日本9
+  - name: AWS日本9
     server: 54.230.129.134
     port: 443
     type: vmess
@@ -140,7 +140,7 @@ proxies:
       headers:
         Host: d2e9wi29qtkpfc.cloudfront.net
     udp: true
-  - name: 日本10
+  - name: AWS日本10
     server: 54.230.130.58
     port: 443
     type: vmess
@@ -155,7 +155,7 @@ proxies:
       headers:
         Host: d2e9wi29qtkpfc.cloudfront.net
     udp: true
-  - name: 日本11
+  - name: AWS日本11
     server: 54.230.151.37
     port: 443
     type: vmess
@@ -170,7 +170,7 @@ proxies:
       headers:
         Host: d2e9wi29qtkpfc.cloudfront.net
     udp: true
-  - name: 日本12
+  - name: AWS日本12
     server: 54.230.188.13
     port: 443
     type: vmess
@@ -185,7 +185,7 @@ proxies:
       headers:
         Host: d2e9wi29qtkpfc.cloudfront.net
     udp: true
-  - name: 日本13
+  - name: AWS日本13
     server: 54.230.20.204
     port: 443
     type: vmess
@@ -200,7 +200,7 @@ proxies:
       headers:
         Host: d2e9wi29qtkpfc.cloudfront.net
     udp: true
-  - name: 日本14
+  - name: AWS日本14
     server: 54.230.0.8
     port: 443
     type: vmess
@@ -215,7 +215,7 @@ proxies:
       headers:
         Host: d2e9wi29qtkpfc.cloudfront.net
     udp: true
-  - name: 日本15
+  - name: AWS日本15
     server: 54.230.148.254
     port: 443
     type: vmess
@@ -230,7 +230,7 @@ proxies:
       headers:
         Host: d2e9wi29qtkpfc.cloudfront.net
     udp: true
-  - name: 日本16
+  - name: AWS日本16
     server: 54.230.172.208
     port: 443
     type: vmess
@@ -245,7 +245,7 @@ proxies:
       headers:
         Host: d2e9wi29qtkpfc.cloudfront.net
     udp: true
-  - name: 日本17
+  - name: AWS日本17
     server: 54.230.147.100
     port: 443
     type: vmess
@@ -260,7 +260,7 @@ proxies:
       headers:
         Host: d2e9wi29qtkpfc.cloudfront.net
     udp: true
-  - name: 日本18
+  - name: AWS日本18
     server: 54.230.185.94
     port: 443
     type: vmess
@@ -275,7 +275,7 @@ proxies:
       headers:
         Host: d2e9wi29qtkpfc.cloudfront.net
     udp: true
-  - name: 日本19
+  - name: AWS日本19
     server: 54.230.175.125
     port: 443
     type: vmess
@@ -290,7 +290,7 @@ proxies:
       headers:
         Host: d2e9wi29qtkpfc.cloudfront.net
     udp: true
-  - name: 日本20
+  - name: AWS日本20
     server: 54.230.173.26
     port: 443
     type: vmess
@@ -305,7 +305,7 @@ proxies:
       headers:
         Host: d2e9wi29qtkpfc.cloudfront.net
     udp: true
-  - name: 日本21
+  - name: AWS日本21
     server: 54.230.174.70
     port: 443
     type: vmess
@@ -320,7 +320,7 @@ proxies:
       headers:
         Host: d2e9wi29qtkpfc.cloudfront.net
     udp: true
-  - name: 日本22
+  - name: AWS日本22
     server: 54.230.172.213
     port: 443
     type: vmess
@@ -335,502 +335,7 @@ proxies:
       headers:
         Host: d2e9wi29qtkpfc.cloudfront.net
     udp: true
-  - name: 韩国1
-    server: 18.65.166.105
-    port: 443
-    type: vmess
-    uuid: 96f83453-205a-4525-ec21-e8009a1c825e
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /96f83453-205a-4525-ec21-e8009a1c825e
-      headers:
-        Host: d2e9wi29qtkpfc.cloudfront.net
-    udp: true
-  - name: 韩国2
-    server: 18.65.181.131
-    port: 443
-    type: vmess
-    uuid: 96f83453-205a-4525-ec21-e8009a1c825e
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /96f83453-205a-4525-ec21-e8009a1c825e
-      headers:
-        Host: d2e9wi29qtkpfc.cloudfront.net
-    udp: true
-  - name: 韩国3
-    server: 18.65.194.9
-    port: 443
-    type: vmess
-    uuid: 96f83453-205a-4525-ec21-e8009a1c825e
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /96f83453-205a-4525-ec21-e8009a1c825e
-      headers:
-        Host: d2e9wi29qtkpfc.cloudfront.net
-    udp: true
-  - name: 韩国4
-    server: 18.65.192.196
-    port: 443
-    type: vmess
-    uuid: 96f83453-205a-4525-ec21-e8009a1c825e
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /96f83453-205a-4525-ec21-e8009a1c825e
-      headers:
-        Host: d2e9wi29qtkpfc.cloudfront.net
-    udp: true
-  - name: 韩国5
-    server: 18.65.192.53
-    port: 443
-    type: vmess
-    uuid: 96f83453-205a-4525-ec21-e8009a1c825e
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /96f83453-205a-4525-ec21-e8009a1c825e
-      headers:
-        Host: d2e9wi29qtkpfc.cloudfront.net
-    udp: true
-  - name: 韩国6
-    server: 18.65.178.156
-    port: 443
-    type: vmess
-    uuid: 96f83453-205a-4525-ec21-e8009a1c825e
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /96f83453-205a-4525-ec21-e8009a1c825e
-      headers:
-        Host: d2e9wi29qtkpfc.cloudfront.net
-    udp: true
-  - name: 韩国7
-    server: 18.65.179.73
-    port: 443
-    type: vmess
-    uuid: 96f83453-205a-4525-ec21-e8009a1c825e
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /96f83453-205a-4525-ec21-e8009a1c825e
-      headers:
-        Host: d2e9wi29qtkpfc.cloudfront.net
-    udp: true
-  - name: 新加坡1
-    server: 204.246.166.135
-    port: 443
-    type: vmess
-    uuid: 96f83453-205a-4525-ec21-e8009a1c825e
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /96f83453-205a-4525-ec21-e8009a1c825e
-      headers:
-        Host: d2e9wi29qtkpfc.cloudfront.net
-    udp: true
-  - name: 台湾1
-    server: 13.35.49.3
-    port: 443
-    type: vmess
-    uuid: 96f83453-205a-4525-ec21-e8009a1c825e
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /96f83453-205a-4525-ec21-e8009a1c825e
-      headers:
-        Host: d2e9wi29qtkpfc.cloudfront.net
-    udp: true
-  - name: 台湾2
-    server: 13.35.64.199
-    port: 443
-    type: vmess
-    uuid: 96f83453-205a-4525-ec21-e8009a1c825e
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /96f83453-205a-4525-ec21-e8009a1c825e
-      headers:
-        Host: d2e9wi29qtkpfc.cloudfront.net
-    udp: true
-  - name: 台湾3
-    server: 13.35.54.70
-    port: 443
-    type: vmess
-    uuid: 96f83453-205a-4525-ec21-e8009a1c825e
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /96f83453-205a-4525-ec21-e8009a1c825e
-      headers:
-        Host: d2e9wi29qtkpfc.cloudfront.net
-    udp: true
-  - name: 台湾4
-    server: 13.35.48.195
-    port: 443
-    type: vmess
-    uuid: 96f83453-205a-4525-ec21-e8009a1c825e
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /96f83453-205a-4525-ec21-e8009a1c825e
-      headers:
-        Host: d2e9wi29qtkpfc.cloudfront.net
-    udp: true
-  - name: 台湾5
-    server: 13.35.70.211
-    port: 443
-    type: vmess
-    uuid: 96f83453-205a-4525-ec21-e8009a1c825e
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /96f83453-205a-4525-ec21-e8009a1c825e
-      headers:
-        Host: d2e9wi29qtkpfc.cloudfront.net
-    udp: true
-  - name: 台湾6
-    server: 13.35.50.230
-    port: 443
-    type: vmess
-    uuid: 96f83453-205a-4525-ec21-e8009a1c825e
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /96f83453-205a-4525-ec21-e8009a1c825e
-      headers:
-        Host: d2e9wi29qtkpfc.cloudfront.net
-    udp: true
-  - name: 台湾7
-    server: 13.35.53.14
-    port: 443
-    type: vmess
-    uuid: 96f83453-205a-4525-ec21-e8009a1c825e
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /96f83453-205a-4525-ec21-e8009a1c825e
-      headers:
-        Host: d2e9wi29qtkpfc.cloudfront.net
-    udp: true
-  - name: 台湾8
-    server: 13.35.45.198
-    port: 443
-    type: vmess
-    uuid: 96f83453-205a-4525-ec21-e8009a1c825e
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /96f83453-205a-4525-ec21-e8009a1c825e
-      headers:
-        Host: d2e9wi29qtkpfc.cloudfront.net
-    udp: true
-  - name: 台湾9
-    server: 13.35.46.200
-    port: 443
-    type: vmess
-    uuid: 96f83453-205a-4525-ec21-e8009a1c825e
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /96f83453-205a-4525-ec21-e8009a1c825e
-      headers:
-        Host: d2e9wi29qtkpfc.cloudfront.net
-    udp: true
-  - name: 台湾10
-    server: 13.35.52.6
-    port: 443
-    type: vmess
-    uuid: 96f83453-205a-4525-ec21-e8009a1c825e
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /96f83453-205a-4525-ec21-e8009a1c825e
-      headers:
-        Host: d2e9wi29qtkpfc.cloudfront.net
-    udp: true
-  - name: 韩国11
-    server: 18.65.203.153
-    port: 443
-    type: vmess
-    uuid: 96f83453-205a-4525-ec21-e8009a1c825e
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /96f83453-205a-4525-ec21-e8009a1c825e
-      headers:
-        Host: d2e9wi29qtkpfc.cloudfront.net
-    udp: true
-  - name: 韩国12
-    server: 18.65.209.56
-    port: 443
-    type: vmess
-    uuid: 96f83453-205a-4525-ec21-e8009a1c825e
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /96f83453-205a-4525-ec21-e8009a1c825e
-      headers:
-        Host: d2e9wi29qtkpfc.cloudfront.net
-    udp: true
-  - name: 新加坡2
-    server: 204.246.166.79
-    port: 443
-    type: vmess
-    uuid: 96f83453-205a-4525-ec21-e8009a1c825e
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /96f83453-205a-4525-ec21-e8009a1c825e
-      headers:
-        Host: d2e9wi29qtkpfc.cloudfront.net
-    udp: true
-  - name: 新加坡3
-    server: 204.246.164.84
-    port: 443
-    type: vmess
-    uuid: 96f83453-205a-4525-ec21-e8009a1c825e
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /96f83453-205a-4525-ec21-e8009a1c825e
-      headers:
-        Host: d2e9wi29qtkpfc.cloudfront.net
-    udp: true
-  - name: 旧金山1
-    server: 15.158.36.46
-    port: 443
-    type: vmess
-    uuid: 96f83453-205a-4525-ec21-e8009a1c825e
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /96f83453-205a-4525-ec21-e8009a1c825e
-      headers:
-        Host: d2e9wi29qtkpfc.cloudfront.net
-    udp: true
-  - name: 旧金山2
-    server: 15.158.4.138
-    port: 443
-    type: vmess
-    uuid: 96f83453-205a-4525-ec21-e8009a1c825e
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /96f83453-205a-4525-ec21-e8009a1c825e
-      headers:
-        Host: d2e9wi29qtkpfc.cloudfront.net
-    udp: true
-  - name: 旧金山3
-    server: 15.158.5.23
-    port: 443
-    type: vmess
-    uuid: 96f83453-205a-4525-ec21-e8009a1c825e
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /96f83453-205a-4525-ec21-e8009a1c825e
-      headers:
-        Host: d2e9wi29qtkpfc.cloudfront.net
-    udp: true
-  - name: 旧金山4
-    server: 15.158.0.23
-    port: 443
-    type: vmess
-    uuid: 96f83453-205a-4525-ec21-e8009a1c825e
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /96f83453-205a-4525-ec21-e8009a1c825e
-      headers:
-        Host: d2e9wi29qtkpfc.cloudfront.net
-    udp: true
-  - name: 孟买1
-    server: 65.8.103.76
-    port: 443
-    type: vmess
-    uuid: 96f83453-205a-4525-ec21-e8009a1c825e
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /96f83453-205a-4525-ec21-e8009a1c825e
-      headers:
-        Host: d2e9wi29qtkpfc.cloudfront.net
-    udp: true
-  - name: 孟买2
-    server: 65.8.113.211
-    port: 443
-    type: vmess
-    uuid: 96f83453-205a-4525-ec21-e8009a1c825e
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /96f83453-205a-4525-ec21-e8009a1c825e
-      headers:
-        Host: d2e9wi29qtkpfc.cloudfront.net
-    udp: true
-  - name: 孟买3
-    server: 65.8.100.94
-    port: 443
-    type: vmess
-    uuid: 96f83453-205a-4525-ec21-e8009a1c825e
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /96f83453-205a-4525-ec21-e8009a1c825e
-      headers:
-        Host: d2e9wi29qtkpfc.cloudfront.net
-    udp: true
-  - name: 台湾11
-    server: 13.35.50.155
-    port: 443
-    type: vmess
-    uuid: 96f83453-205a-4525-ec21-e8009a1c825e
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /96f83453-205a-4525-ec21-e8009a1c825e
-      headers:
-        Host: d2e9wi29qtkpfc.cloudfront.net
-    udp: true
-  - name: 台湾12
-    server: 13.35.66.87
-    port: 443
-    type: vmess
-    uuid: 96f83453-205a-4525-ec21-e8009a1c825e
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /96f83453-205a-4525-ec21-e8009a1c825e
-      headers:
-        Host: d2e9wi29qtkpfc.cloudfront.net
-    udp: true
-  - name: 台湾13
-    server: 13.35.47.244
-    port: 443
-    type: vmess
-    uuid: 96f83453-205a-4525-ec21-e8009a1c825e
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /96f83453-205a-4525-ec21-e8009a1c825e
-      headers:
-        Host: d2e9wi29qtkpfc.cloudfront.net
-    udp: true
-  - name: 台湾14
-    server: 13.35.51.119
-    port: 443
-    type: vmess
-    uuid: 96f83453-205a-4525-ec21-e8009a1c825e
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /96f83453-205a-4525-ec21-e8009a1c825e
-      headers:
-        Host: d2e9wi29qtkpfc.cloudfront.net
-    udp: true
-  - name: CF香港1
+  - name: CF日本1
     server: 103.30.51.60
     port: 443
     type: vmess
@@ -845,8 +350,8 @@ proxies:
       headers:
         Host: cf.305450846.xyz
     udp: true
-  - name: CF香港2
-    server: 150.129.218.198
+  - name: CF日本2
+    server: 8.222.216.203
     port: 443
     type: vmess
     uuid: 3cc642a7-c160-4911-a275-022fcfb1eb6b
@@ -860,8 +365,8 @@ proxies:
       headers:
         Host: cf.305450846.xyz
     udp: true
-  - name: CF香港3
-    server: 8.219.208.46
+  - name: CF日本3
+    server: 8.222.241.129
     port: 443
     type: vmess
     uuid: 3cc642a7-c160-4911-a275-022fcfb1eb6b
@@ -875,7 +380,7 @@ proxies:
       headers:
         Host: cf.305450846.xyz
     udp: true
-  - name: CF香港4
+  - name: CF日本4
     server: 8.222.225.48
     port: 443
     type: vmess
@@ -890,9 +395,9 @@ proxies:
       headers:
         Host: cf.305450846.xyz
     udp: true
-  - name: CF香港5
-    server: 47.75.122.158
-    port: 443
+  - name: CF日本5
+    server: 58.146.221.164
+    port: 30001
     type: vmess
     uuid: 3cc642a7-c160-4911-a275-022fcfb1eb6b
     alterId: 0
@@ -905,9 +410,9 @@ proxies:
       headers:
         Host: cf.305450846.xyz
     udp: true
-  - name: CF香港6
-    server: 8.219.41.160
-    port: 443
+  - name: CF日本6
+    server: 118.41.7.140
+    port: 30001
     type: vmess
     uuid: 3cc642a7-c160-4911-a275-022fcfb1eb6b
     alterId: 0
@@ -920,7 +425,7 @@ proxies:
       headers:
         Host: cf.305450846.xyz
     udp: true
-  - name: CF香港7
+  - name: CF日本7
     server: 8.222.209.135
     port: 443
     type: vmess
@@ -935,7 +440,7 @@ proxies:
       headers:
         Host: cf.305450846.xyz
     udp: true
-  - name: CF香港8
+  - name: CF日本8
     server: 8.219.57.5
     port: 443
     type: vmess
@@ -950,7 +455,7 @@ proxies:
       headers:
         Host: cf.305450846.xyz
     udp: true
-  - name: CF香港9
+  - name: CF日本9
     server: 199.15.79.54
     port: 443
     type: vmess
@@ -965,65 +470,122 @@ proxies:
       headers:
         Host: cf.305450846.xyz
     udp: true
+  - name: CF圣何塞_1
+    server: 103.30.51.60
+    port: 443
+    client-fingerprint: chrome
+    type: trojan
+    password: trojan123
+    tls: true
+    sni: shs.305450846.xyz
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /shs3cc642a7-c160-4911-a275-022fcfb1eb6b
+      headers:
+        Host: shs.305450846.xyz
+    udp: true
+  - name: CF圣何塞_2
+    server: 58.146.221.164
+    port: 30001
+    client-fingerprint: chrome
+    type: trojan
+    password: trojan123
+    tls: true
+    sni: shs.305450846.xyz
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /shs3cc642a7-c160-4911-a275-022fcfb1eb6b
+      headers:
+        Host: shs.305450846.xyz
+    udp: true
+  - name: CF圣何塞_3
+    server: 8.222.216.203
+    port: 443
+    client-fingerprint: chrome
+    type: trojan
+    password: trojan123
+    tls: true
+    sni: shs.305450846.xyz
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /shs3cc642a7-c160-4911-a275-022fcfb1eb6b
+      headers:
+        Host: shs.305450846.xyz
+    udp: true
+  - name: CF圣何塞_4
+    server: 118.41.7.140
+    port: 30001
+    client-fingerprint: chrome
+    type: trojan
+    password: trojan123
+    tls: true
+    sni: shs.305450846.xyz
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /shs3cc642a7-c160-4911-a275-022fcfb1eb6b
+      headers:
+        Host: shs.305450846.xyz
+    udp: true
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
-      - ⚖️ 负载均衡-轮询
-      - ⚖️ 负载均衡-散列
+      - ⚖️ 轮询_AWS日本
+      - ⚖️ 轮询_CF日本
+      - ⚖️ 轮询_CF圣何塞
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CF香港1
-      - CF香港2
-      - CF香港3
-      - CF香港4
-      - CF香港5
-      - CF香港6
-      - CF香港7
-      - CF香港8
-      - CF香港9
+      - AWS日本1
+      - AWS日本2
+      - AWS日本3
+      - AWS日本4
+      - AWS日本5
+      - AWS日本6
+      - AWS日本7
+      - AWS日本8
+      - AWS日本9
+      - AWS日本10
+      - CF日本1
+      - CF日本2
+      - CF日本3
+      - CF日本4
+      - CF日本5
+      - CF日本6
+      - CF日本7
+      - CF日本8
+      - CF日本9
+      - CF圣何塞_1
+      - CF圣何塞_2
+      - CF圣何塞_3
+      - CF圣何塞_4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.google.com/generate_204
     interval: 300
     proxies:
-      - 日本1
-      - 日本2
-      - 日本3
-      - 日本4
-      - 日本5
-      - 日本6
-      - 日本7
-      - 日本8
-      - 日本9
-      - 日本10
-      - 韩国1
-      - 韩国2
-      - 韩国3
-      - 韩国4
-      - 韩国5
-      - 韩国6
-      - 韩国7
-      - 新加坡1
-      - 台湾1
-      - 台湾2
-      - 台湾3
-      - 台湾4
-      - 台湾5
-      - 台湾6
-      - 台湾7
-      - 台湾8
-      - 台湾9
-      - 台湾10
-      - CF香港1
-      - CF香港2
-      - CF香港3
-      - CF香港4
-      - CF香港5
-      - CF香港6
-      - CF香港7
-      - CF香港8
-      - CF香港9
+      - AWS日本1
+      - AWS日本1
+      - AWS日本1
+      - AWS日本1
+      - AWS日本1
+      - AWS日本1
+      - AWS日本1
+      - AWS日本1
+      - AWS日本1
+      - AWS日本1
+      - CF日本1
+      - CF日本2
+      - CF日本3
+      - CF日本4
+      - CF日本5
+      - CF日本6
+      - CF日本7
+      - CF日本8
+      - CF日本9
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -1078,77 +640,56 @@ proxy-groups:
     proxies:
       - REJECT
       - DIRECT
-  - name: ⚖️ 负载均衡-散列
-    type: load-balance
-    url: http://www.google.com/generate_204
-    interval: 300
-    strategy: consistent-hashing
-    proxies:
-      - 日本1
-      - 日本2
-      - 日本3
-      - 日本4
-      - 日本5
-      - 日本6
-      - 日本7
-      - 日本8
-      - 日本9
-      - 日本10
-      - 韩国1
-      - 韩国2
-      - 韩国3
-      - 韩国4
-      - 韩国5
-      - 韩国6
-      - 韩国7
-      - 新加坡1
-      - 台湾1
-      - 台湾2
-      - 台湾3
-      - 台湾4
-      - 台湾5
-      - 台湾6
-      - 台湾7
-      - 台湾8
-      - 台湾9
-      - 台湾10
-  - name: ⚖️ 负载均衡-轮询
+  - name: ⚖️ 轮询_AWS日本
     type: load-balance
     url: http://www.google.com/generate_204
     interval: 300
     strategy: round-robin
     proxies:
-      - 日本1
-      - 日本2
-      - 日本3
-      - 日本4
-      - 日本5
-      - 日本6
-      - 日本7
-      - 日本8
-      - 日本9
-      - 日本10
-      - 日本11
-      - 日本12
-      - 日本13
-      - 日本14
-      - 日本15
-      - 日本16
-      - 日本17
-      - 日本18
-      - 日本19
-      - 日本20
-      - 日本21
-      - 日本22
-      - CF香港1
-      - CF香港2
-      - CF香港3
-      - CF香港4
-      - CF香港5
-      - CF香港6
-      - CF香港7
-      - CF香港8
-      - CF香港9
+      - AWS日本1
+      - AWS日本2
+      - AWS日本3
+      - AWS日本4
+      - AWS日本5
+      - AWS日本6
+      - AWS日本7
+      - AWS日本8
+      - AWS日本9
+      - AWS日本10
+      - AWS日本11
+      - AWS日本12
+      - AWS日本13
+      - AWS日本14
+      - AWS日本15
+      - AWS日本16
+      - AWS日本17
+      - AWS日本18
+      - AWS日本19
+      - AWS日本20
+      - AWS日本21
+      - AWS日本22
+  - name: ⚖️ 轮询_CF日本
+    type: load-balance
+    url: http://www.google.com/generate_204
+    interval: 300
+    strategy: round-robin
+    proxies:
+      - CF日本1
+      - CF日本2
+      - CF日本3
+      - CF日本4
+      - CF日本5
+      - CF日本6
+      - CF日本7
+      - CF日本8
+      - CF日本9
+  - name: ⚖️ 轮询_CF圣何塞
+    type: load-balance
+    url: http://www.google.com/generate_204
+    interval: 300
+    strategy: round-robin
+    proxies:
+      - CF日本9
   - name: 🐟 漏网之鱼
     type: select
     proxies:
@@ -1184,6 +725,7 @@ rules:
   - DOMAIN-SUFFIX,openai.com,🔰 节点选择
   - DOMAIN-SUFFIX,gcore.com,🔰 节点选择
   - DOMAIN-SUFFIX,buliang0.cf,🔰 节点选择
+  - DOMAIN-SUFFIX,speedtest.net,🔰 节点选择
   - DOMAIN-SUFFIX,cloudapp.net,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,cloudappsecurity.com,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,edgesuite.net,Ⓜ️ 微软服务
