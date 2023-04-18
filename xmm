@@ -350,66 +350,7 @@ proxies:
       headers:
         Host: cf.305450846.xyz
     udp: true
-  - name: CF日本2
-    server: 8.222.216.203
-    port: 443
-    type: vmess
-    uuid: 3cc642a7-c160-4911-a275-022fcfb1eb6b
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /3cc642a7-c160-4911-a275-022fcfb1eb6b
-      headers:
-        Host: cf.305450846.xyz
-    udp: true
-  - name: CF日本3
-    server: 8.222.241.129
-    port: 443
-    type: vmess
-    uuid: 3cc642a7-c160-4911-a275-022fcfb1eb6b
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /3cc642a7-c160-4911-a275-022fcfb1eb6b
-      headers:
-        Host: cf.305450846.xyz
-    udp: true
-  - name: CF日本4
-    server: 8.222.225.48
-    port: 443
-    type: vmess
-    uuid: 3cc642a7-c160-4911-a275-022fcfb1eb6b
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /3cc642a7-c160-4911-a275-022fcfb1eb6b
-      headers:
-        Host: cf.305450846.xyz
-    udp: true
-  - name: CF日本5
-    server: 58.146.221.164
-    port: 30001
-    type: vmess
-    uuid: 3cc642a7-c160-4911-a275-022fcfb1eb6b
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /3cc642a7-c160-4911-a275-022fcfb1eb6b
-      headers:
-        Host: cf.305450846.xyz
-    udp: true
+
   - name: CF日本6
     server: 118.41.7.140
     port: 30001
@@ -440,68 +381,9 @@ proxies:
       headers:
         Host: cf.305450846.xyz
     udp: true
-  - name: CF日本8
-    server: 8.219.57.5
-    port: 443
-    type: vmess
-    uuid: 3cc642a7-c160-4911-a275-022fcfb1eb6b
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /3cc642a7-c160-4911-a275-022fcfb1eb6b
-      headers:
-        Host: cf.305450846.xyz
-    udp: true
-  - name: CF日本9
-    server: 199.15.79.54
-    port: 443
-    type: vmess
-    uuid: 3cc642a7-c160-4911-a275-022fcfb1eb6b
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /3cc642a7-c160-4911-a275-022fcfb1eb6b
-      headers:
-        Host: cf.305450846.xyz
-    udp: true
+
   - name: CF圣何塞_1
     server: 103.30.51.60
-    port: 443
-    client-fingerprint: chrome
-    type: trojan
-    password: trojan123
-    tls: true
-    sni: shs.305450846.xyz
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /shs3cc642a7-c160-4911-a275-022fcfb1eb6b
-      headers:
-        Host: shs.305450846.xyz
-    udp: true
-  - name: CF圣何塞_2
-    server: 58.146.221.164
-    port: 30001
-    client-fingerprint: chrome
-    type: trojan
-    password: trojan123
-    tls: true
-    sni: shs.305450846.xyz
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /shs3cc642a7-c160-4911-a275-022fcfb1eb6b
-      headers:
-        Host: shs.305450846.xyz
-    udp: true
-  - name: CF圣何塞_3
-    server: 8.222.216.203
     port: 443
     client-fingerprint: chrome
     type: trojan
@@ -560,20 +442,6 @@ proxies:
        headers:
          Host: cf.305450846.xyz
 
-  -  name: 8.222.172.185_443
-     server: 8.222.172.185
-     port: 443
-     type: vmess
-     uuid: 3cc642a7-c160-4911-a275-022fcfb1eb6b
-     alterId: 0
-     cipher: auto
-     tls: true
-     skip-cert-verify: true
-     network: ws
-     ws-opts:
-       path: /3cc642a7-c160-4911-a275-022fcfb1eb6b
-       headers:
-         Host: cf.305450846.xyz
 
   -  name: 8.222.193.135_443
      server: 8.222.193.135
@@ -592,21 +460,6 @@ proxies:
 
   -  name: 8.222.181.139_443
      server: 8.222.181.139
-     port: 443
-     type: vmess
-     uuid: 3cc642a7-c160-4911-a275-022fcfb1eb6b
-     alterId: 0
-     cipher: auto
-     tls: true
-     skip-cert-verify: true
-     network: ws
-     ws-opts:
-       path: /3cc642a7-c160-4911-a275-022fcfb1eb6b
-       headers:
-         Host: cf.305450846.xyz
-
-  -  name: 8.222.228.36_443
-     server: 8.222.228.36
      port: 443
      type: vmess
      uuid: 3cc642a7-c160-4911-a275-022fcfb1eb6b
@@ -665,38 +518,8 @@ proxies:
        headers:
          Host: cf.305450846.xyz
 
-  -  name: 8.222.243.95_443
-     server: 8.222.243.95
-     port: 443
-     type: vmess
-     uuid: 3cc642a7-c160-4911-a275-022fcfb1eb6b
-     alterId: 0
-     cipher: auto
-     tls: true
-     skip-cert-verify: true
-     network: ws
-     ws-opts:
-       path: /3cc642a7-c160-4911-a275-022fcfb1eb6b
-       headers:
-         Host: cf.305450846.xyz
-
   -  name: 8.222.209.135_443
      server: 8.222.209.135
-     port: 443
-     type: vmess
-     uuid: 3cc642a7-c160-4911-a275-022fcfb1eb6b
-     alterId: 0
-     cipher: auto
-     tls: true
-     skip-cert-verify: true
-     network: ws
-     ws-opts:
-       path: /3cc642a7-c160-4911-a275-022fcfb1eb6b
-       headers:
-         Host: cf.305450846.xyz
-
-  -  name: 8.222.226.232_443
-     server: 8.222.226.232
      port: 443
      type: vmess
      uuid: 3cc642a7-c160-4911-a275-022fcfb1eb6b
@@ -725,81 +548,6 @@ proxies:
        headers:
          Host: cf.305450846.xyz
 
-  -  name: 8.222.241.129_443
-     server: 8.222.241.129
-     port: 443
-     type: vmess
-     uuid: 3cc642a7-c160-4911-a275-022fcfb1eb6b
-     alterId: 0
-     cipher: auto
-     tls: true
-     skip-cert-verify: true
-     network: ws
-     ws-opts:
-       path: /3cc642a7-c160-4911-a275-022fcfb1eb6b
-       headers:
-         Host: cf.305450846.xyz
-
-  -  name: 8.222.240.89_443
-     server: 8.222.240.89
-     port: 443
-     type: vmess
-     uuid: 3cc642a7-c160-4911-a275-022fcfb1eb6b
-     alterId: 0
-     cipher: auto
-     tls: true
-     skip-cert-verify: true
-     network: ws
-     ws-opts:
-       path: /3cc642a7-c160-4911-a275-022fcfb1eb6b
-       headers:
-         Host: cf.305450846.xyz
-
-  -  name: 8.222.246.219_443
-     server: 8.222.246.219
-     port: 443
-     type: vmess
-     uuid: 3cc642a7-c160-4911-a275-022fcfb1eb6b
-     alterId: 0
-     cipher: auto
-     tls: true
-     skip-cert-verify: true
-     network: ws
-     ws-opts:
-       path: /3cc642a7-c160-4911-a275-022fcfb1eb6b
-       headers:
-         Host: cf.305450846.xyz
-
-  -  name: 8.222.179.157_443
-     server: 8.222.179.157
-     port: 443
-     type: vmess
-     uuid: 3cc642a7-c160-4911-a275-022fcfb1eb6b
-     alterId: 0
-     cipher: auto
-     tls: true
-     skip-cert-verify: true
-     network: ws
-     ws-opts:
-       path: /3cc642a7-c160-4911-a275-022fcfb1eb6b
-       headers:
-         Host: cf.305450846.xyz
-
-  -  name: 8.222.241.251_443
-     server: 8.222.241.251
-     port: 443
-     type: vmess
-     uuid: 3cc642a7-c160-4911-a275-022fcfb1eb6b
-     alterId: 0
-     cipher: auto
-     tls: true
-     skip-cert-verify: true
-     network: ws
-     ws-opts:
-       path: /3cc642a7-c160-4911-a275-022fcfb1eb6b
-       headers:
-         Host: cf.305450846.xyz
-
   -  name: 8.222.181.238_443
      server: 8.222.181.238
      port: 443
@@ -815,36 +563,53 @@ proxies:
        headers:
          Host: cf.305450846.xyz
 
-  -  name: 8.222.216.203_443
-     server: 8.222.216.203
-     port: 443
-     type: vmess
-     uuid: 3cc642a7-c160-4911-a275-022fcfb1eb6b
-     alterId: 0
-     cipher: auto
-     tls: true
-     skip-cert-verify: true
-     network: ws
-     ws-opts:
-       path: /3cc642a7-c160-4911-a275-022fcfb1eb6b
-       headers:
-         Host: cf.305450846.xyz
-  -  name: 23.247.139.15_443
-     server: 23.247.139.15
-     port: 443
-     type: vmess
-     uuid: 3cc642a7-c160-4911-a275-022fcfb1eb6b
-     alterId: 0
-     cipher: auto
-     tls: true
-     skip-cert-verify: true
-     network: ws
-     ws-opts:
-       path: /3cc642a7-c160-4911-a275-022fcfb1eb6b
-       headers:
-         Host: cf.305450846.xyz
   -  name: 103.30.51.60_443
      server: 103.30.51.60
+     port: 443
+     type: vmess
+     uuid: 3cc642a7-c160-4911-a275-022fcfb1eb6b
+     alterId: 0
+     cipher: auto
+     tls: true
+     skip-cert-verify: true
+     network: ws
+     ws-opts:
+       path: /3cc642a7-c160-4911-a275-022fcfb1eb6b
+       headers:
+         Host: cf.305450846.xyz
+
+  -  name: 1
+     server: 199.15.78.46
+     port: 443
+     type: vmess
+     uuid: 3cc642a7-c160-4911-a275-022fcfb1eb6b
+     alterId: 0
+     cipher: auto
+     tls: true
+     skip-cert-verify: true
+     network: ws
+     ws-opts:
+       path: /3cc642a7-c160-4911-a275-022fcfb1eb6b
+       headers:
+         Host: cf.305450846.xyz
+
+  -  name: 2
+     server: 8.222.131.1
+     port: 443
+     type: vmess
+     uuid: 3cc642a7-c160-4911-a275-022fcfb1eb6b
+     alterId: 0
+     cipher: auto
+     tls: true
+     skip-cert-verify: true
+     network: ws
+     ws-opts:
+       path: /3cc642a7-c160-4911-a275-022fcfb1eb6b
+       headers:
+         Host: cf.305450846.xyz
+
+  -  name: 3
+     server: 8.222.161.11
      port: 443
      type: vmess
      uuid: 3cc642a7-c160-4911-a275-022fcfb1eb6b
@@ -867,76 +632,46 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - CF日本1
-      - CF日本2
-      - CF日本3
-      - CF日本4
-      - CF日本5
       - CF日本6
       - CF日本7
-      - CF日本8
-      - CF日本9
       - CF圣何塞_1
-      - CF圣何塞_2
-      - CF圣何塞_3
       - CF圣何塞_4
       - 146.190.83.149_443
       - 146.190.109.173_443
-      - 8.222.172.185_443
       - 8.222.193.135_443
       - 8.222.181.139_443
-      - 8.222.228.36_443
       - 146.190.96.13_443
       - 146.190.93.110_443
       - 8.222.175.6_443
-      - 8.222.243.95_443
       - 8.222.209.135_443
-      - 8.222.226.232_443
       - 8.222.214.246_443
-      - 8.222.241.129_443
-      - 8.222.240.89_443
-      - 8.222.246.219_443
-      - 8.222.179.157_443
-      - 8.222.241.251_443
       - 8.222.181.238_443
-      - 8.222.216.203_443
-      - 23.247.139.15_443
       - 103.30.51.60_443
+      - 1
+      - 2
+      - 3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.google.com/generate_204
     interval: 300
     proxies:
       - CF日本1
-      - CF日本2
-      - CF日本3
-      - CF日本4
-      - CF日本5
       - CF日本6
       - CF日本7
-      - CF日本8
-      - CF日本9
       - 146.190.83.149_443
       - 146.190.109.173_443
-      - 8.222.172.185_443
       - 8.222.193.135_443
       - 8.222.181.139_443
-      - 8.222.228.36_443
       - 146.190.96.13_443
       - 146.190.93.110_443
       - 8.222.175.6_443
-      - 8.222.243.95_443
       - 8.222.209.135_443
-      - 8.222.226.232_443
       - 8.222.214.246_443
-      - 8.222.241.129_443
-      - 8.222.240.89_443
-      - 8.222.246.219_443
-      - 8.222.179.157_443
-      - 8.222.241.251_443
       - 8.222.181.238_443
-      - 8.222.216.203_443
-      - 23.247.139.15_443
       - 103.30.51.60_443
+      - 1
+      - 2
+      - 3
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -1026,21 +761,15 @@ proxy-groups:
     strategy: round-robin
     proxies:
       - CF日本1
-      - CF日本2
-      - CF日本3
-      - CF日本4
-      - CF日本5
       - CF日本6
       - CF日本7
-      - CF日本8
-      - CF日本9
   - name: ⚖️ 轮询_CF圣何塞
     type: load-balance
     url: http://www.google.com/generate_204
     interval: 300
     strategy: round-robin
     proxies:
-      - CF日本9
+      - CF日本1
   - name: 🐟 漏网之鱼
     type: select
     proxies:
