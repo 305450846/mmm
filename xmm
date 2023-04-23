@@ -351,21 +351,6 @@ proxies:
         Host: cf.305450846.xyz
     udp: true
 
-  - name: CF日本6
-    server: 118.41.7.140
-    port: 30001
-    type: vmess
-    uuid: 3cc642a7-c160-4911-a275-022fcfb1eb6b
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /3cc642a7-c160-4911-a275-022fcfb1eb6b
-      headers:
-        Host: cf.305450846.xyz
-    udp: true
   - name: CF日本7
     server: 8.222.209.135
     port: 443
@@ -385,21 +370,6 @@ proxies:
   - name: CF圣何塞_1
     server: 103.30.51.60
     port: 443
-    client-fingerprint: chrome
-    type: trojan
-    password: trojan123
-    tls: true
-    sni: shs.305450846.xyz
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /shs3cc642a7-c160-4911-a275-022fcfb1eb6b
-      headers:
-        Host: shs.305450846.xyz
-    udp: true
-  - name: CF圣何塞_4
-    server: 118.41.7.140
-    port: 30001
     client-fingerprint: chrome
     type: trojan
     password: trojan123
@@ -579,7 +549,7 @@ proxies:
          Host: cf.305450846.xyz
 
   -  name: 1
-     server: 199.15.78.46
+     server: 8.222.242.161
      port: 443
      type: vmess
      uuid: 3cc642a7-c160-4911-a275-022fcfb1eb6b
@@ -594,7 +564,22 @@ proxies:
          Host: cf.305450846.xyz
 
   -  name: 2
-     server: 8.222.131.1
+     server: 36.228.203.167
+     port: 443
+     type: vmess
+     uuid: 3cc642a7-c160-4911-a275-022fcfb1eb6b
+     alterId: 0
+     cipher: auto
+     tls: true
+     skip-cert-verify: true
+     network: ws
+     ws-opts:
+       path: /3cc642a7-c160-4911-a275-022fcfb1eb6b
+       headers:
+         Host: cf.305450846.xyz
+         
+  -  name: 3
+     server: 8.222.248.213
      port: 443
      type: vmess
      uuid: 3cc642a7-c160-4911-a275-022fcfb1eb6b
@@ -608,7 +593,7 @@ proxies:
        headers:
          Host: cf.305450846.xyz
 
-  -  name: 3
+  -  name: 4
      server: 8.222.161.11
      port: 443
      type: vmess
@@ -632,10 +617,8 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - CF日本1
-      - CF日本6
       - CF日本7
       - CF圣何塞_1
-      - CF圣何塞_4
       - 146.190.83.149_443
       - 146.190.109.173_443
       - 8.222.193.135_443
@@ -650,13 +633,13 @@ proxy-groups:
       - 1
       - 2
       - 3
+      - 4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.google.com/generate_204
     interval: 300
     proxies:
       - CF日本1
-      - CF日本6
       - CF日本7
       - 146.190.83.149_443
       - 146.190.109.173_443
@@ -672,6 +655,7 @@ proxy-groups:
       - 1
       - 2
       - 3
+      - 4
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -761,7 +745,6 @@ proxy-groups:
     strategy: round-robin
     proxies:
       - CF日本1
-      - CF日本6
       - CF日本7
   - name: ⚖️ 轮询_CF圣何塞
     type: load-balance
