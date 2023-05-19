@@ -366,22 +366,7 @@ proxies:
       headers:
         Host: cf.305450846.xyz
     udp: true
-
-  - name: CF圣何塞_1
-    server: 103.30.51.60
-    port: 443
-    client-fingerprint: chrome
-    type: trojan
-    password: trojan123
-    tls: true
-    sni: shs.305450846.xyz
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /shs3cc642a7-c160-4911-a275-022fcfb1eb6b
-      headers:
-        Host: shs.305450846.xyz
-    udp: true
+    
   -  name: 146.190.83.149_443
      server: 146.190.83.149
      port: 443
@@ -427,22 +412,6 @@ proxies:
        path: /3cc642a7-c160-4911-a275-022fcfb1eb6b
        headers:
          Host: cf.305450846.xyz
-
-  -  name: 8.222.181.139_443
-     server: 8.222.181.139
-     port: 443
-     type: vmess
-     uuid: 3cc642a7-c160-4911-a275-022fcfb1eb6b
-     alterId: 0
-     cipher: auto
-     tls: true
-     skip-cert-verify: true
-     network: ws
-     ws-opts:
-       path: /3cc642a7-c160-4911-a275-022fcfb1eb6b
-       headers:
-         Host: cf.305450846.xyz
-
   -  name: 146.190.96.13_443
      server: 146.190.96.13
      port: 443
@@ -472,22 +441,6 @@ proxies:
        path: /3cc642a7-c160-4911-a275-022fcfb1eb6b
        headers:
          Host: cf.305450846.xyz
-
-  -  name: 8.222.175.6_443
-     server: 8.222.175.6
-     port: 443
-     type: vmess
-     uuid: 3cc642a7-c160-4911-a275-022fcfb1eb6b
-     alterId: 0
-     cipher: auto
-     tls: true
-     skip-cert-verify: true
-     network: ws
-     ws-opts:
-       path: /3cc642a7-c160-4911-a275-022fcfb1eb6b
-       headers:
-         Host: cf.305450846.xyz
-
   -  name: 8.222.209.135_443
      server: 8.222.209.135
      port: 443
@@ -502,37 +455,6 @@ proxies:
        path: /3cc642a7-c160-4911-a275-022fcfb1eb6b
        headers:
          Host: cf.305450846.xyz
-
-  -  name: 8.222.214.246_443
-     server: 8.222.214.246
-     port: 443
-     type: vmess
-     uuid: 3cc642a7-c160-4911-a275-022fcfb1eb6b
-     alterId: 0
-     cipher: auto
-     tls: true
-     skip-cert-verify: true
-     network: ws
-     ws-opts:
-       path: /3cc642a7-c160-4911-a275-022fcfb1eb6b
-       headers:
-         Host: cf.305450846.xyz
-
-  -  name: 8.222.181.238_443
-     server: 8.222.181.238
-     port: 443
-     type: vmess
-     uuid: 3cc642a7-c160-4911-a275-022fcfb1eb6b
-     alterId: 0
-     cipher: auto
-     tls: true
-     skip-cert-verify: true
-     network: ws
-     ws-opts:
-       path: /3cc642a7-c160-4911-a275-022fcfb1eb6b
-       headers:
-         Host: cf.305450846.xyz
-
   -  name: 103.30.51.60_443
      server: 103.30.51.60
      port: 443
@@ -547,9 +469,8 @@ proxies:
        path: /3cc642a7-c160-4911-a275-022fcfb1eb6b
        headers:
          Host: cf.305450846.xyz
-
   -  name: 1
-     server: 8.222.242.161
+     server: 132.145.94.15
      port: 443
      type: vmess
      uuid: 3cc642a7-c160-4911-a275-022fcfb1eb6b
@@ -562,51 +483,34 @@ proxies:
        path: /3cc642a7-c160-4911-a275-022fcfb1eb6b
        headers:
          Host: cf.305450846.xyz
-
-  -  name: 2
-     server: 36.228.203.167
+  -  name: 圣何塞_souha
+     server: 103.30.51.60
      port: 443
-     type: vmess
-     uuid: 3cc642a7-c160-4911-a275-022fcfb1eb6b
+     type: vless
+     uuid: b7cb9e22-a6cd-4b02-ac21-e42f8b6d2552
      alterId: 0
      cipher: auto
      tls: true
      skip-cert-verify: true
      network: ws
      ws-opts:
-       path: /3cc642a7-c160-4911-a275-022fcfb1eb6b
+       path: b7cb9e22
        headers:
-         Host: cf.305450846.xyz
-         
-  -  name: 3
-     server: 8.222.248.213
+         Host: reprints-red-docs-happy.trycloudflare.com
+  -  name: 春川
+     server: 103.30.51.60
      port: 443
      type: vmess
-     uuid: 3cc642a7-c160-4911-a275-022fcfb1eb6b
+     uuid: 11d31dca-b7c1-4472-a1b7-cc8e5c3d9a16
      alterId: 0
      cipher: auto
      tls: true
      skip-cert-verify: true
      network: ws
      ws-opts:
-       path: /3cc642a7-c160-4911-a275-022fcfb1eb6b
+       path: /11d31dca-b7c1-4472-a1b7-cc8e5c3d9a16
        headers:
-         Host: cf.305450846.xyz
-
-  -  name: 4
-     server: 8.222.161.11
-     port: 443
-     type: vmess
-     uuid: 3cc642a7-c160-4911-a275-022fcfb1eb6b
-     alterId: 0
-     cipher: auto
-     tls: true
-     skip-cert-verify: true
-     network: ws
-     ws-opts:
-       path: /3cc642a7-c160-4911-a275-022fcfb1eb6b
-       headers:
-         Host: cf.305450846.xyz
+         Host: stair.desychan.top
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -618,22 +522,16 @@ proxy-groups:
       - 🎯 全球直连
       - CF日本1
       - CF日本7
-      - CF圣何塞_1
       - 146.190.83.149_443
       - 146.190.109.173_443
       - 8.222.193.135_443
-      - 8.222.181.139_443
       - 146.190.96.13_443
       - 146.190.93.110_443
-      - 8.222.175.6_443
       - 8.222.209.135_443
-      - 8.222.214.246_443
-      - 8.222.181.238_443
       - 103.30.51.60_443
       - 1
-      - 2
-      - 3
-      - 4
+      - 圣何塞_souha
+      - 春川
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.google.com/generate_204
@@ -644,18 +542,13 @@ proxy-groups:
       - 146.190.83.149_443
       - 146.190.109.173_443
       - 8.222.193.135_443
-      - 8.222.181.139_443
       - 146.190.96.13_443
       - 146.190.93.110_443
-      - 8.222.175.6_443
       - 8.222.209.135_443
-      - 8.222.214.246_443
-      - 8.222.181.238_443
       - 103.30.51.60_443
       - 1
-      - 2
-      - 3
-      - 4
+      - 圣何塞_souha
+      - 春川
   - name: 🎥 NETFLIX
     type: select
     proxies:
